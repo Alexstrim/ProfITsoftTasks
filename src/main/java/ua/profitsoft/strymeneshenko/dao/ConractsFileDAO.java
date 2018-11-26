@@ -6,20 +6,25 @@ import org.apache.log4j.Logger;
 import ua.profitsoft.strymeneshenko.entity.Contract;
 import ua.profitsoft.strymeneshenko.entity.Individual;
 import ua.profitsoft.strymeneshenko.entity.InsuredPerson;
+import ua.profitsoft.strymeneshenko.util.UtilDate;
 
 import java.io.*;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.*;
 
-public class ConractsFileDAO implements IDaoFile<Contract> {
+public class ConractsFileDAO implements IDao<Contract> {
 
     private static final Logger LOGGER = Logger.getLogger(ConractsFileDAO.class);
     private static final String PATH_TO_FILE_INSURED_PERSON = "resources\\insured_persons.csv";
     private static final String PATH_TO_FILE_CONTRACTS = "resources\\contracts.csv";
 
     @Override
-    public Contract read(long number) throws IOException {
+    public void create(Contract entity) throws Exception {
+        LOGGER.info("Not implemented method create");
+        throw new NoSuchMethodException("Not implemented method create");
+    }
+
+    @Override
+    public Contract read(long number) throws Exception {
         List<Contract> contracts = getContractsFromFile(PATH_TO_FILE_CONTRACTS, PATH_TO_FILE_INSURED_PERSON);
         for (Contract contract : contracts) {
             if (contract.getNumber() == number) {
@@ -29,8 +34,20 @@ public class ConractsFileDAO implements IDaoFile<Contract> {
         return null;
     }
 
+    @Override
+    public void update(Contract entity) throws Exception {
+        LOGGER.info("Not implemented method update");
+        throw new NoSuchMethodException("Not implemented method update");
+    }
+
+    @Override
+    public void delete(long id) throws Exception {
+        LOGGER.info("Not implemented method delete");
+        throw new NoSuchMethodException("Not implemented method delete");
+    }
+
     //The method of searching for insured persons from a separate file. Without using the Apache Commons CSV library.
-    public static Set<InsuredPerson> getInsuredPersonsFromFile(File file) throws IOException {
+    public Set<InsuredPerson> getInsuredPersonsFromFile(File file) throws IOException {
         Set<InsuredPerson> persons = new HashSet<>();
         BufferedReader reader = new BufferedReader(new FileReader(file));
 
@@ -55,7 +72,7 @@ public class ConractsFileDAO implements IDaoFile<Contract> {
                 } else if (index == 2) {
                     person.setLastName(rezult);
                 } else if (index == 3) {
-                    person.setDateOfBirth(stringToDate(rezult));
+                    person.setDateOfBirth(UtilDate.stringToDate(rezult));
                 } else if (index == 4) {
                     person.setCost(Integer.parseInt(rezult));
                 } else {
@@ -69,7 +86,7 @@ public class ConractsFileDAO implements IDaoFile<Contract> {
         return persons;
     }
 
-    public static List<Contract> getContractsFromFile(String fileContract, String fileInsuredPerson) throws IOException {
+    public List<Contract> getContractsFromFile(String fileContract, String fileInsuredPerson) throws IOException {
         File filePesons = new File(fileInsuredPerson);
         File fileContracts = new File(fileContract);
 
@@ -79,9 +96,9 @@ public class ConractsFileDAO implements IDaoFile<Contract> {
         for (CSVRecord record : records) {
             Contract contract = new Contract();
             contract.setNumber(Long.parseLong(record.get("Number")));
-            contract.setDateConclusion(stringToDate(record.get("DateConclusion")));
-            contract.setStartDate(stringToDate(record.get("StartDate")));
-            contract.setEndDate(stringToDate(record.get("EndDate")));
+            contract.setDateConclusion(UtilDate.stringToDate(record.get("DateConclusion")));
+            contract.setStartDate(UtilDate.stringToDate(record.get("StartDate")));
+            contract.setEndDate(UtilDate.stringToDate(record.get("EndDate")));
 
             Individual client = new Individual();
             try(Scanner scanner = new Scanner(record.get("Client"))) {
@@ -119,18 +136,5 @@ public class ConractsFileDAO implements IDaoFile<Contract> {
             }
         }
         return contracts;
-    }
-
-    //Convert string to date
-    public static Date stringToDate(String data) {
-        Date date = null;
-        SimpleDateFormat sdf = new SimpleDateFormat();
-        sdf.applyPattern("dd.MM.yyyy");
-        try {
-            date = sdf.parse(data);
-        } catch (ParseException e) {
-            LOGGER.error("Not valid date", e);
-        }
-        return date;
     }
 }

@@ -14,7 +14,7 @@ import static org.junit.Assert.*;
 public class ConractsFileDAOTest {
 
     @Test
-    public void read() throws IOException {
+    public void read() throws Exception {
         Set<InsuredPerson> persons = new HashSet<>();
         Individual client = new Individual("Alex","Strymeneshenko","Lybotin Popova st. 7");
 
@@ -22,7 +22,7 @@ public class ConractsFileDAOTest {
         persons.add(new InsuredPerson("Alexandr","Pypkin","12.10.1989",1100,432145671336L));
         Contract contract = new Contract(123332L,"18.11.2018","18.11.2018","18.11.2019", client, persons);
 
-        IDaoFile<Contract> daoFile= new ConractsFileDAO();
+        IDao<Contract> daoFile= new ConractsFileDAO();
         Contract contractFile = daoFile.read(123332L);
         assertEquals(contract,contractFile);
     }

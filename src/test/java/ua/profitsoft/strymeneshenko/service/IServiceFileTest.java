@@ -1,8 +1,6 @@
 package ua.profitsoft.strymeneshenko.service;
 
 import org.junit.Test;
-import ua.profitsoft.strymeneshenko.dao.ConractsFileDAO;
-import ua.profitsoft.strymeneshenko.dao.IDaoFile;
 import ua.profitsoft.strymeneshenko.entity.Contract;
 import ua.profitsoft.strymeneshenko.entity.Individual;
 import ua.profitsoft.strymeneshenko.entity.InsuredPerson;
@@ -16,7 +14,7 @@ import static org.junit.Assert.*;
 public class IServiceFileTest {
 
     @Test
-    public void read() throws IOException {
+    public void read() throws Exception {
         Set<InsuredPerson> persons = new HashSet<>();
         Individual client = new Individual("Alex","Strymeneshenko","Lybotin Popova st. 7");
 

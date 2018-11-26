@@ -1,3 +1,4 @@
-ua\profitsoft\strymeneshenko\filereader\MyReaderTest.class
+ua\profitsoft\strymeneshenko\dao\ConractsFileDAOTest.class
 ua\profitsoft\strymeneshenko\entity\ContractTest.class
+ua\profitsoft\strymeneshenko\service\IServiceFileTest.class
 ua\profitsoft\strymeneshenko\entity\InsuredPersonTest.class

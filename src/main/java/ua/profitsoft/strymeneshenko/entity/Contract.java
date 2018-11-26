@@ -1,10 +1,8 @@
 package ua.profitsoft.strymeneshenko.entity;
 
 import org.apache.log4j.Logger;
-import ua.profitsoft.strymeneshenko.dao.ConractsFileDAO;
+import ua.profitsoft.strymeneshenko.util.UtilDate;
 
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
 import java.util.*;
 
 //Entity Contract
@@ -26,16 +24,16 @@ public class Contract {
         this.number = number;
         this.dateConclusion = dateConclusion;
         this.startDate = startDate;
-        this.endDate = editDate(this.startDate, monthDuration);
+        this.endDate = UtilDate.editDate(this.startDate, monthDuration);
         this.client = client;
         this.persons = persons;
     }
 
     public Contract(long number, String dateConclusion, String startDate, String endDate, Client client, Set<InsuredPerson> persons) {
         this.number = number;
-        this.dateConclusion = ConractsFileDAO.stringToDate(dateConclusion);
-        this.startDate = ConractsFileDAO.stringToDate(startDate);
-        this.endDate = ConractsFileDAO.stringToDate(endDate);
+        this.dateConclusion = UtilDate.stringToDate(dateConclusion);
+        this.startDate = UtilDate.stringToDate(startDate);
+        this.endDate = UtilDate.stringToDate(endDate);
         this.client = client;
         this.persons = persons;
     }
@@ -118,27 +116,7 @@ public class Contract {
             LOGGER.info("The insured person does not belong to this contract!");
         }
     }
-    // The method changes the date to the number of months (passed in the month parameter) ahead
-    // or back. When adding a starting date to the contract, we automatically calculate the expiration date of the contract
 
-    private Date editDate(Date date, int month) {
-        Calendar calendar = Calendar.getInstance();
-        SimpleDateFormat sdf = new SimpleDateFormat("dd.MM.yyyy HH:mm:ss");
-        String d = sdf.format(date);
-        try {
-            calendar.setTime(sdf.parse(d));
-        } catch (ParseException e) {
-            LOGGER.error("Error editDate", e);
-        }
-        calendar.add(Calendar.MONTH, month);
-        d = sdf.format(calendar.getTime());
-        try {
-            date = sdf.parse(d);
-        } catch (ParseException e) {
-            LOGGER.error("Error editDate", e);
-        }
-        return date;
-    }
     public Set<InsuredPerson> sortPersonsInAlphaBeticalOrder() {
         Set<InsuredPerson> personsTree = new TreeSet<>(new SortByName());
         personsTree.addAll(persons);
