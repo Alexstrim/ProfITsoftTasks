@@ -2,56 +2,53 @@ package ua.profitsoft.strymeneshenko.entity;
 
 import java.util.Objects;
 
-//Сущность физ. лицо
+//Entity individual
 public class Individual extends Client {
 
-	private String firstName = "";
-	private String lastName = "";
+    private String firstName = "";
+    private String lastName = "";
 
-	public Individual() {
-		super();
-		firstName = "Vasya";
-		lastName = "Pypkin";
-	}
+    public Individual() {
+    }
 
-	@Override
-	public String toString() {
-		return "Individual [firstName=" + firstName + "; lastName=" + lastName + "; adress=" + super.adress + "]";
-	}
+    @Override
+    public String toString() {
+        return "Individual [firstName=" + firstName + "; lastName=" + lastName + "; adress=" + super.adress + "]";
+    }
 
-	public Individual(String firstName, String lastName, String adress) {
-		super(adress);
-		this.firstName = firstName;
-		this.lastName = lastName;
-	}
+    public Individual(String firstName, String lastName, String adress) {
+        super(adress);
+        this.firstName = firstName;
+        this.lastName = lastName;
+    }
 
-	public String getFirstName() {
-		return firstName;
-	}
+    public String getFirstName() {
+        return firstName;
+    }
 
-	public void setFirstName(String firstName) {
-		this.firstName = firstName;
-	}
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
 
-	public String getLastName() {
-		return lastName;
-	}
+    public String getLastName() {
+        return lastName;
+    }
 
-	public void setLastName(String lastName) {
-		this.lastName = lastName;
-	}
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
 
-	@Override
-	public boolean equals(Object o) {
-		if (this == o) return true;
-		if (o == null || getClass() != o.getClass()) return false;
-		Individual that = (Individual) o;
-		return Objects.equals(firstName, that.firstName) &&
-				Objects.equals(lastName, that.lastName);
-	}
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        Individual that = (Individual) o;
+        return Objects.equals(firstName, that.firstName) &&
+                Objects.equals(lastName, that.lastName);
+    }
 
-	@Override
-	public int hashCode() {
-		return Objects.hash(firstName, lastName);
-	}
+    @Override
+    public int hashCode() {
+        return Objects.hash(firstName, lastName);
+    }
 }

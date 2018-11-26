@@ -1,30 +1,28 @@
 package ua.profitsoft.strymeneshenko.entity;
 
-//Сущность юр. лицо
+//Entity LegalEntity
 public class LegalEntity extends Client {
 
-	private String nameOrganization = "";
+    private String nameOrganization = "";
 
-	public LegalEntity() {
-		super();
-		setNameOrganization("ProfITsoft");
-	}
+    public LegalEntity() {
+    }
 
-	public LegalEntity(String nameOrganization, String adress) {
-		super(adress);
-		this.setNameOrganization(nameOrganization);
-	}
+    public LegalEntity(String nameOrganization, String adress) {
+        super(adress);
+        this.setNameOrganization(nameOrganization);
+    }
 
-	@Override
-	public String toString() {
-		return "LegalEntity [nameOrganization=" + nameOrganization + "; adress=" + super.adress + "]";
-	}
+    @Override
+    public String toString() {
+        return "LegalEntity [nameOrganization=" + nameOrganization + "; adress=" + super.adress + "]";
+    }
 
-	public String getNameOrganization() {
-		return nameOrganization;
-	}
+    public String getNameOrganization() {
+        return nameOrganization;
+    }
 
-	public void setNameOrganization(String nameOrganization) {
-		this.nameOrganization = nameOrganization;
-	}
+    public void setNameOrganization(String nameOrganization) {
+        this.nameOrganization = nameOrganization;
+    }
 }

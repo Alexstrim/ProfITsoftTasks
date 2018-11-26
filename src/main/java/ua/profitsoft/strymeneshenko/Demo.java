@@ -2,31 +2,32 @@ package ua.profitsoft.strymeneshenko;
 
 import java.io.File;
 import java.io.IOException;
-import java.util.*;
 
+import ua.profitsoft.strymeneshenko.dao.ConractsFileDAO;
+import ua.profitsoft.strymeneshenko.dao.IDaoFile;
 import ua.profitsoft.strymeneshenko.entity.Contract;
-import ua.profitsoft.strymeneshenko.filereader.MyReader;
+import ua.profitsoft.strymeneshenko.service.ContractServiceFile;
+import ua.profitsoft.strymeneshenko.service.IServiceFile;
 
 public class Demo {
-	private static final String PATH_TO_FILE_INSURED_PERSON = "resources\\insured_persons.csv";
-	private static final String PATH_TO_FILE_CONTRACTS = "resources\\contracts.csv";
+    public static void main(String[] args) {
 
-	public static void main(String[] args) {
-
-		//Чтение данных из файла
-		System.out.println("==================Чтение данных из файла==================");
-		File filePesons = new File(PATH_TO_FILE_INSURED_PERSON);
-		File fileContracts = new File(PATH_TO_FILE_CONTRACTS);
-
-		List<Contract> contracts = new ArrayList<>();
-		try {
-			contracts = MyReader.getContractsFromFile(fileContracts,filePesons);
-		} catch (IOException e) {
-			e.printStackTrace();
-		}
-
-		contracts.forEach(System.out::println);
-		System.out.println("===========================================================");
-	}
+        //Reading data from a file
+        System.out.println("==================Чтение данных из файла==================");
+        IDaoFile file = new ConractsFileDAO();
+        try {
+            Contract contract = (Contract) file.read(123334L);
+            System.out.println(contract);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        IServiceFile<Contract> con = new ContractServiceFile();
+        try {
+            Contract contract1 = (Contract) con.read(123333L);
+            System.out.println(contract1);
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+    }
 
 }
