@@ -1,7 +1,7 @@
 package ua.profitsoft.strymeneshenko.service;
 
 
-import ua.profitsoft.strymeneshenko.dao.IDao;
+import ua.profitsoft.strymeneshenko.db.dao.IDao;
 
 public interface IServiceFile<T> {
     IDao<T> getDao();

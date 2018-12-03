@@ -1,32 +1,38 @@
 package ua.profitsoft.strymeneshenko;
 
-import java.io.IOException;
+import ua.profitsoft.strymeneshenko.data.*;
+import ua.profitsoft.strymeneshenko.db.dao.ConractsFileDAO;
+import ua.profitsoft.strymeneshenko.db.dao.IDao;
+import ua.profitsoft.strymeneshenko.service.*;
+import ua.profitsoft.strymeneshenko.util.UtilDate;
 
-import ua.profitsoft.strymeneshenko.dao.ConractsFileDAO;
-import ua.profitsoft.strymeneshenko.dao.IDao;
-import ua.profitsoft.strymeneshenko.entity.Contract;
-import ua.profitsoft.strymeneshenko.service.ContractServiceFile;
-import ua.profitsoft.strymeneshenko.service.IServiceFile;
+import java.util.Date;
+import java.util.HashSet;
+import java.util.Set;
 
 public class Demo {
     public static void main(String[] args) {
+        Client c1 = new Individual("Anatoliy", "Petrov", "Kiev, Adb st. 123");
+        InsuredPerson ip1 = new InsuredPerson("Dmitriy", "Pypkin", "11.08.1987", 1423, 94572439L);
+        InsuredPerson ip2 = new InsuredPerson("Foma", "Nevernuy", "22.09.1988", 2222, 94572229L);
+        Set<InsuredPerson> persons = new HashSet<InsuredPerson>();
+        persons.add(ip1);
+        persons.add(ip2);
 
-        //Reading data from a file
-        System.out.println("==================Чтение данных из файла==================");
-        IDao file = new ConractsFileDAO();
+        Contract contract = new Contract("03.11.2018", "03.11.2018", "03.11.2019", c1, persons);
+        contract.setNumber(10L);
+
+        IServiceFile<Client> clientService = new ClientService();
+        IServiceFile<InsuredPerson> insuredPersonService = new InsuredPersonService();
+        IServiceFile<Contract> contractService = new ContractService();
+
         try {
-            Contract contract = (Contract) file.read(123334L);
-            System.out.println(contract);
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-        IServiceFile<Contract> con = new ContractServiceFile();
-        try {
-            Contract contract1 = (Contract) con.read(123333L);
-            System.out.println(contract1);
+            clientService.create(c1);
+            insuredPersonService.create(ip1);
+            insuredPersonService.create(ip2);
+            contractService.create(contract);
         } catch (Exception e) {
             e.printStackTrace();
         }
     }
-
 }

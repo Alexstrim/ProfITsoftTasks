@@ -1,0 +1,582 @@
+2018-12-02 18:28:14 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 18:31:00 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:30:36 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:30:37 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:34:02 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:36:07 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:36:08 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:40:40 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:42:03 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:42:04 ERROR ClientDAO:45 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:42:37 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:42:38 ERROR ClientDAO:45 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:86)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:43:44 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:43:45 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:44:41 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:44:42 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:90)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:45:23 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:45:24 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:47:16 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:47:17 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:20)
+2018-12-02 19:47:40 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:47:41 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:20)
+2018-12-02 19:48:46 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:48:47 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:20)
+2018-12-02 20:05:00 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:18:29 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:18:48 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:47:29 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:47:31 ERROR ClientDAO:62 - Can't read Client from DB!!!
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'nameOrganization = null WHERE id = 2' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.update(ClientDAO.java:58)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.update(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.update(IServiceFile.java:18)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:21)
+2018-12-02 20:48:07 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:48:08 ERROR ClientDAO:62 - Can't update Client into DB!!!
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'nameOrganization = null WHERE id = 2' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.update(ClientDAO.java:58)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.update(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.update(IServiceFile.java:18)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:21)
+2018-12-02 20:49:19 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:50:17 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:56:56 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:57:35 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:58:02 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:59:24 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:59:33 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:59:46 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:09:40 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:14:53 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:17:13 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:17:43 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:17:45 ERROR InsuredPersonDAO:28 - Can't insert insured person into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '76538245' for key 'number_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:24)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:32)
+2018-12-02 22:18:09 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:37:23 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:37:25 ERROR InsuredPersonDAO:28 - Can't insert insured person into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '76548245' for key 'number_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:24)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:32)
+2018-12-02 22:37:41 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:39:15 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:39:46 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:41:26 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:42:00 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:42:01 ERROR InsuredPersonDAO:28 - Can't insert insured person into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '76588245' for key 'number_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:24)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:32)
+2018-12-02 22:42:33 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 23:22:25 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 23:25:05 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 23:30:32 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 01:58:54 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 01:58:55 ERROR InsuredPersonDAO:30 - Can't insert insured person into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '76588245' for key 'number_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:32)
+2018-12-03 01:59:04 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 01:59:33 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:00:09 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:02:14 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:02:55 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:14:14 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:15:34 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:37:01 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:37:02 ERROR InsuredPersonDAO:57 - Can't update insured person into DB!!!
+java.sql.SQLSyntaxErrorException: Unknown column 'firsdtName' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.update(InsuredPersonDAO.java:53)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.update(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.update(IServiceFile.java:18)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:33)
+2018-12-03 02:38:29 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:41:24 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:41:57 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:42:38 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:26:34 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:26:35 ERROR ContractDAO:33 - Can't insert Contract into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`insurance`.`contract`, CONSTRAINT `fk_Contract_Client` FOREIGN KEY (`Client_id`) REFERENCES `client` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:29)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:15)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 09:40:12 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:40:13 ERROR ClientDAO:36 - Can't insert Client into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:30)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:50)
+2018-12-03 09:40:13 ERROR InsuredPersonDAO:33 - Can't insert insured person into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:51)
+2018-12-03 09:40:13 ERROR InsuredPersonDAO:33 - Can't insert insured person into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:52)
+2018-12-03 09:40:13 ERROR ContractDAO:32 - Can't insert Contract into DB!!!
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:318)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 09:50:40 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:50:41 ERROR ClientDAO:36 - Can't insert Client into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:30)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:50)
+2018-12-03 09:50:41 ERROR InsuredPersonDAO:33 - Can't insert insured person into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:51)
+2018-12-03 09:50:41 ERROR InsuredPersonDAO:33 - Can't insert insured person into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:52)
+2018-12-03 09:50:41 ERROR ContractDAO:32 - Can't insert Contract into DB!!!
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:318)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 09:52:26 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:53:03 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:53:05 ERROR ClientDAO:36 - Can't insert Client into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:30)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:50)
+2018-12-03 09:59:09 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:59:10 ERROR ClientDAO:34 - Can't insert Client into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:514)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getLong(ResultSetImpl.java:921)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:30)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:50)
+2018-12-03 10:02:43 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:03:22 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:10:02 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:10:04 ERROR ContractDAO:33 - Can't insert Contract into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`insurance`.`contract_insuredperson`, CONSTRAINT `fk_Contract_has_InsuredPerson_Contract1` FOREIGN KEY (`Contract_number`) REFERENCES `contract` (`number`) ON DELETE NO ACTION ON UPDATE NO ACT)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 10:15:46 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:15:47 ERROR ContractDAO:36 - Can't insert Contract into DB!!!
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:318)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:28)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 10:18:20 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:18:21 ERROR ContractDAO:36 - Can't insert Contract into DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getLong(ResultSetImpl.java:921)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:29)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 10:19:38 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:19:39 ERROR ContractDAO:38 - Can't insert Contract into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`insurance`.`contract_insuredperson`, CONSTRAINT `fk_Contract_has_InsuredPerson_Contract1` FOREIGN KEY (`Contract_number`) REFERENCES `contract` (`number`) ON DELETE NO ACTION ON UPDATE NO ACT)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:34)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 10:25:05 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:25:07 ERROR ContractDAO:38 - Can't insert Contract into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`insurance`.`contract_insuredperson`, CONSTRAINT `fk_Contract_has_InsuredPerson_Contract1` FOREIGN KEY (`Contract_number`) REFERENCES `contract` (`number`) ON DELETE NO ACTION ON UPDATE NO ACT)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:34)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 10:42:01 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:52:40 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:54:35 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:17:35 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:18:20 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:53:13 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:53:14 ERROR ContractDAO:66 - Can't read Contract from DB!!!
+java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1024)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:93)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.read(ContractDAO.java:58)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.read(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:59)
+2018-12-03 11:54:08 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:54:09 ERROR ContractDAO:66 - Can't read Contract from DB!!!
+java.sql.SQLException: Column 'number' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:581)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getLong(ResultSetImpl.java:928)
+	at org.apache.commons.dbcp.DelegatingResultSet.getLong(DelegatingResultSet.java:240)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.extractContract(ContractDAO.java:122)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.read(ContractDAO.java:61)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.read(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:59)
+2018-12-03 11:54:59 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:56:36 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:57:51 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 12:56:04 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 13:05:21 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 13:05:22 ERROR ContractDAO:100 - Can't delete Contract from DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`insurance`.`contract_insuredperson`, CONSTRAINT `fk_Contract_has_InsuredPerson_Contract1` FOREIGN KEY (`Contract_number`) REFERENCES `contract` (`number`) ON DELETE NO ACTION ON UPDATE NO ACT)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.delete(ContractDAO.java:96)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.delete(IServiceFile.java:22)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:63)
+2018-12-03 13:07:54 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 13:14:53 INFO  ConnectionFactory:34 - input file open!
