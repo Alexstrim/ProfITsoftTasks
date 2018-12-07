@@ -16,7 +16,7 @@ public class ContractTest {
 
         Set<InsuredPerson> persons = new HashSet<>();
 
-        persons.add(new InsuredPerson("Dima", "Pypkin", "14.14.2000", 700, 1234_4567_1235L));
+        persons.add(new InsuredPerson("Dima", "Pypkin", "14.14.2000", 700, 1233_4567_1235L));
         persons.add(new InsuredPerson("Yaroslav", "Zhykov", "14.14.1999", 800, 1234_4567_1235L));
         persons.add(new InsuredPerson("Roman", "Zayarniy", "14.14.2001", 900, 1236_4547_1235L));
 
@@ -35,7 +35,7 @@ public class ContractTest {
 
     @Test
     public void sortPersonsInAlphaBeticalOrder() {
-        InsuredPerson ip1 = new InsuredPerson("Dima", "Pypkin", "14.14.2000", 700, 1234_4567_1235L);
+        InsuredPerson ip1 = new InsuredPerson("Dima", "Pypkin", "14.14.2000", 700, 1233_4567_1235L);
         InsuredPerson ip2 = new InsuredPerson("Yaroslav", "Zhykov", "14.14.1999", 800, 1234_4567_1235L);
         InsuredPerson ip3 = new InsuredPerson("Roman", "Zayarniy", "14.14.2001", 900, 1236_4547_1235L);
 
@@ -51,7 +51,7 @@ public class ContractTest {
 
     @Test
     public void sortPersonsByDateOfBirth() {
-        InsuredPerson ip1 = new InsuredPerson("Dima", "Pypkin", "14.14.2000", 700, 1234_4567_1235L);
+        InsuredPerson ip1 = new InsuredPerson("Dima", "Pypkin", "14.14.2000", 700, 1233_4567_1235L);
         InsuredPerson ip2 = new InsuredPerson("Yaroslav", "Zhykov", "14.14.1999", 800, 1234_4567_1235L);
         InsuredPerson ip3 = new InsuredPerson("Roman", "Zayarniy", "14.14.2001", 900, 1236_4547_1235L);
 

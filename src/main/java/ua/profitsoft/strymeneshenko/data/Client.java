@@ -32,16 +32,18 @@ public abstract class Client {
         this.id = id;
     }
 
+
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         Client client = (Client) o;
-        return Objects.equals(adress, client.adress);
+        return id == client.id &&
+                Objects.equals(adress, client.adress);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(adress);
+        return Objects.hash(id, adress);
     }
 }

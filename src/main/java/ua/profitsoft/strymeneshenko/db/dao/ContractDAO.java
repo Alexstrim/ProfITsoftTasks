@@ -23,6 +23,8 @@ public class ContractDAO implements IDao<Contract>{
     private static final String SQL_DELETE_CONTRACT_LIST_INSURED_PERSONS = "DELETE FROM contract_insuredperson WHERE Contract_number = ?";
     private static final String SQL_DELETE_CONTRACT = "DELETE FROM contract WHERE number = ?";
 
+    private static final Long ONE_DAY_MILL_SEC = 86400000L;
+
     //first write the data to the `contract` table
     //then in `contract_insuredperson`(keep a list of insured persons)
     @Override
@@ -122,9 +124,9 @@ public class ContractDAO implements IDao<Contract>{
 
     private PreparedStatement createPrepareStatement(Connection con, Contract contract) throws SQLException {
         PreparedStatement ps = con.prepareStatement(SQL_INSERT_CONTRACT, Statement.RETURN_GENERATED_KEYS);
-        ps.setDate(1, new Date(contract.getDateConclusion().getTime()));
-        ps.setDate(2, new Date(contract.getStartDate().getTime()));
-        ps.setDate(3, new Date(contract.getEndDate().getTime()));
+        ps.setDate(1, new Date(contract.getDateConclusion().getTime() + ONE_DAY_MILL_SEC));
+        ps.setDate(2, new Date(contract.getStartDate().getTime() + ONE_DAY_MILL_SEC));
+        ps.setDate(3, new Date(contract.getEndDate().getTime() + ONE_DAY_MILL_SEC));
         ps.setLong(4, contract.getClient().getId());
         return ps;
     }
@@ -161,9 +163,9 @@ public class ContractDAO implements IDao<Contract>{
 
     private PreparedStatement updatePrepareStatement(Connection con, Contract contract) throws SQLException {
         PreparedStatement ps = con.prepareStatement(SQL_UPDATE_CONTRACT);
-        ps.setDate(1, new Date(contract.getDateConclusion().getTime()));
-        ps.setDate(2, new Date(contract.getStartDate().getTime()));
-        ps.setDate(3, new Date(contract.getEndDate().getTime()));
+        ps.setDate(1, new Date(contract.getDateConclusion().getTime() + ONE_DAY_MILL_SEC));
+        ps.setDate(2, new Date(contract.getStartDate().getTime() + ONE_DAY_MILL_SEC));
+        ps.setDate(3, new Date(contract.getEndDate().getTime() + ONE_DAY_MILL_SEC));
         ps.setLong(4, contract.getClient().getId());
         ps.setLong(5, contract.getNumber());
         return ps;

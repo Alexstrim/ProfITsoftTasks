@@ -82,24 +82,25 @@ public class InsuredPerson {
 
     @Override
     public String toString() {
-        return System.lineSeparator() + "InsuredPerson (firstName=" + firstName + ", lastName=" + lastName
+        return System.lineSeparator() + "InsuredPerson (id=" + id + ", firstName=" + firstName + ", lastName=" + lastName
                 + ", dateOfBirth=" + dateOfBirth + ", cost=" + cost + ", identificationNumber=" + identificationNumber + ")";
     }
+
 
     @Override
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
         InsuredPerson that = (InsuredPerson) o;
-        return cost == that.cost &&
+        return id == that.id &&
+                cost == that.cost &&
                 identificationNumber == that.identificationNumber &&
                 Objects.equals(firstName, that.firstName) &&
-                Objects.equals(lastName, that.lastName) &&
-                Objects.equals(dateOfBirth, that.dateOfBirth);
+                Objects.equals(lastName, that.lastName);
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(firstName, lastName, dateOfBirth, cost, identificationNumber);
+        return Objects.hash(id, firstName, lastName, cost, identificationNumber);
     }
 }

@@ -2,6 +2,7 @@ package ua.profitsoft.strymeneshenko.util;
 
 import org.apache.log4j.Logger;
 
+import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.Calendar;
@@ -20,6 +21,7 @@ public class UtilDate {
         sdf.applyPattern("dd.MM.yyyy");
         try {
             date = sdf.parse(data);
+            date = new java.sql.Date(date.getTime() + 86400000);
         } catch (ParseException e) {
             LOGGER.error("Not valid date", e);
         }
@@ -48,5 +50,13 @@ public class UtilDate {
             LOGGER.error("Error editDate", e);
         }
         return date;
+    }
+
+    //The method allows you to display the date in the desired format.
+
+    public static String parseDateToFormat(Date date, String format){
+        DateFormat outFormatter = new SimpleDateFormat(format);
+        String output = outFormatter.format(date);
+        return output;
     }
 }

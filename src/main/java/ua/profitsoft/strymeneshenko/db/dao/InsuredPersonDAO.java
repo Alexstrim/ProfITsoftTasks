@@ -17,6 +17,8 @@ public class InsuredPersonDAO implements IDao<InsuredPerson>{
     private static final String SQL_UPDATE_INSURED_PERSON = "UPDATE insuredperson SET firstName = ?, lastName = ?, dateOfBirth = ?, cost = ?, identificationNumber = ? WHERE id = ?";
     private static final String SQL_DELETE_INSURED_PERSON = "DELETE FROM insuredperson WHERE id = ?";
 
+    private static final Long ONE_DAY_MILL_SEC = 86400000L;
+
 
     @Override
     public void create(InsuredPerson insuredPerson){
@@ -82,7 +84,7 @@ public class InsuredPersonDAO implements IDao<InsuredPerson>{
         PreparedStatement ps = con.prepareStatement(SQL_INSERT_INSURED_PERSON, Statement.RETURN_GENERATED_KEYS);
         ps.setString(1, insuredPerson.getFirstName());
         ps.setString(2, insuredPerson.getLastName());
-        ps.setDate(3, new Date(insuredPerson.getDateOfBirth().getTime()));
+        ps.setDate(3, new Date(insuredPerson.getDateOfBirth().getTime() + ONE_DAY_MILL_SEC));
         ps.setInt(4, insuredPerson.getCost());
         ps.setLong(5, insuredPerson.getIdentificationNumber());
         return ps;
@@ -109,7 +111,7 @@ public class InsuredPersonDAO implements IDao<InsuredPerson>{
         PreparedStatement ps = con.prepareStatement(SQL_UPDATE_INSURED_PERSON);
         ps.setString(1, insuredPerson.getFirstName());
         ps.setString(2, insuredPerson.getLastName());
-        ps.setDate(3, new Date(insuredPerson.getDateOfBirth().getTime()));
+        ps.setDate(3, new Date(insuredPerson.getDateOfBirth().getTime() + ONE_DAY_MILL_SEC));
         ps.setInt(4, insuredPerson.getCost());
         ps.setLong(5, insuredPerson.getIdentificationNumber());
         ps.setLong(6, insuredPerson.getId());

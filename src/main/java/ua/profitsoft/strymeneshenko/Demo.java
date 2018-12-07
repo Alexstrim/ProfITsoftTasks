@@ -22,9 +22,9 @@ public class Demo {
         Contract contract = new Contract("03.11.2018", "03.11.2018", "03.11.2019", c1, persons);
         contract.setNumber(10L);
 
-        IServiceFile<Client> clientService = new ClientService();
-        IServiceFile<InsuredPerson> insuredPersonService = new InsuredPersonService();
-        IServiceFile<Contract> contractService = new ContractService();
+        IService<Client> clientService = new ClientService();
+        IService<InsuredPerson> insuredPersonService = new InsuredPersonService();
+        IService<Contract> contractService = new ContractService();
 
         try {
             clientService.create(c1);

@@ -15,7 +15,7 @@ public class LegalEntity extends Client {
 
     @Override
     public String toString() {
-        return "LegalEntity [nameOrganization=" + nameOrganization + "; adress=" + super.adress + "]";
+        return "LegalEntity [id="+ id +", nameOrganization=" + nameOrganization + "; adress=" + super.adress + "]";
     }
 
     public String getNameOrganization() {

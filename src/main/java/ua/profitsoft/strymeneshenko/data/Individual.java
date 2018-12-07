@@ -13,7 +13,7 @@ public class Individual extends Client {
 
     @Override
     public String toString() {
-        return "Individual [firstName=" + firstName + "; lastName=" + lastName + "; adress=" + super.adress + "]";
+        return "Individual [id="+ super.id + ", firstName=" + firstName + "; lastName=" + lastName + "; adress=" + super.adress + "]";
     }
 
     public Individual(String firstName, String lastName, String adress) {

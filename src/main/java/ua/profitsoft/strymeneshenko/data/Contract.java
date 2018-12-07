@@ -241,9 +241,6 @@ public class Contract {
         if (o == null || getClass() != o.getClass()) {return false;}
         Contract contract = (Contract) o;
         return number == contract.number &&
-                Objects.equals(dateConclusion, contract.dateConclusion) &&
-                Objects.equals(startDate, contract.startDate) &&
-                Objects.equals(endDate, contract.endDate) &&
                 Objects.equals(client, contract.client) &&
                 Objects.equals(persons, contract.persons);
     }

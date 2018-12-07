@@ -3,7 +3,7 @@ package ua.profitsoft.strymeneshenko.service;
 
 import ua.profitsoft.strymeneshenko.db.dao.IDao;
 
-public interface IServiceFile<T> {
+public interface IService<T> {
     IDao<T> getDao();
 
     default void create(T entity) throws Exception {
