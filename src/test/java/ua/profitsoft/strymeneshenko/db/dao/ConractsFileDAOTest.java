@@ -1,4 +1,4 @@
-package ua.profitsoft.strymeneshenko.service;
+package ua.profitsoft.strymeneshenko.db.dao;
 
 import org.junit.Test;
 import ua.profitsoft.strymeneshenko.data.Contract;
@@ -10,7 +10,7 @@ import java.util.Set;
 
 import static org.junit.Assert.*;
 
-public class IServiceFileTest {
+public class ConractsFileDAOTest {
 
     @Test
     public void read() throws Exception {
@@ -21,8 +21,8 @@ public class IServiceFileTest {
         persons.add(new InsuredPerson("Alexandr","Pypkin","12.10.1989",1100,432145671336L));
         Contract contract = new Contract(123332L,"18.11.2018","18.11.2018","18.11.2019", client, persons);
 
-        IService<Contract> contractIServiceFile = new ContractServiceFile();
-        Contract contractFile = contractIServiceFile.read(123332L);
+        IDao<Contract> daoFile= new ConractsFileDAO();
+        Contract contractFile = daoFile.read(123332L);
         assertEquals(contract,contractFile);
     }
 }

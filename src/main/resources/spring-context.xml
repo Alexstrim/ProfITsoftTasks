@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p" xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd">
+        
+    <context:component-scan base-package="ua.profitsoft.strymeneshenko"/>
+
+    <bean id="PropertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations" value="classpath:db.properties"/>
+    </bean>
+
+    <bean id="DataSource" class="org.apache.commons.dbcp.BasicDataSource" destroy-method="close">
+        <property name="driverClassName" value="${driverClassName}"/>
+        <property name="url" value="jdbc:mysql://${db.host}/${db.name}?serverTimezone=${db.serverTimezone}"/>
+        <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>
+        <property name="maxActive" value="${maxActive}"/>
+        <property name="maxIdle" value="${maxIdle}"/>
+        <property name="maxWait" value="${maxWait}"/>
+    </bean>
+
+    <bean id="client-1" class="ua.profitsoft.strymeneshenko.data.Client" abstract="true" p:adress="Shevchenko str. 17,Kharkiv"/>
+
+    <bean id="individual-1" class="ua.profitsoft.strymeneshenko.data.Individual" parent="client-1" p:firstName="Serga" p:lastName="Vechniy"/>
+
+    <bean id="insured-person-1" class="ua.profitsoft.strymeneshenko.data.InsuredPerson"
+          p:firstName="Alexa" p:lastName="Pypok" p:dateOfBirth="#{T(ua.profitsoft.strymeneshenko.util.UtilDate).generateRandomDate()}"
+          p:cost="2222" p:identificationNumber="12342341"/>
+
+    <bean id="insured-person-2" class="ua.profitsoft.strymeneshenko.data.InsuredPerson"
+          p:firstName="Serga" p:lastName="Smeshnoy" p:dateOfBirth="#{T(ua.profitsoft.strymeneshenko.util.UtilDate).generateRandomDate()}"
+          p:cost="4321" p:identificationNumber="76481298"/>
+
+    <bean id="contract-1" class="ua.profitsoft.strymeneshenko.data.Contract"
+          p:dateConclusion="#{T(ua.profitsoft.strymeneshenko.util.UtilDate).generateRandomDate()}"
+          p:startDate="#{T(ua.profitsoft.strymeneshenko.util.UtilDate).generateRandomDate()}"
+          p:endDate="#{T(ua.profitsoft.strymeneshenko.util.UtilDate).generateRandomDate()}" p:client-ref="individual-1">
+        <property name="persons">
+            <set>
+                <ref bean="insured-person-1"/>
+                <ref bean="insured-person-2"/>
+            </set>
+        </property>
+    </bean>
+
+    <bean id="clientService"  class="ua.profitsoft.strymeneshenko.service.ClientService"/>
+    <bean id="contractService" class="ua.profitsoft.strymeneshenko.service.ContractService"/>
+    <bean id="insuredPersonService" class="ua.profitsoft.strymeneshenko.service.InsuredPersonService"/>
+
+    <bean id="clientDAO" class="ua.profitsoft.strymeneshenko.db.dao.ClientDAO"/>
+    <bean id="contractDAO" class="ua.profitsoft.strymeneshenko.db.dao.ContractDAO"/>
+    <bean id="insuredPersonDAO" class="ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO"/>
+
+</beans>

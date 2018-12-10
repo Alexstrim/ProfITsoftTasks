@@ -1,0 +1,1861 @@
+2018-12-02 18:28:14 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 18:31:00 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:30:36 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:30:37 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:34:02 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:36:07 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:36:08 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:40:40 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:42:03 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:42:04 ERROR ClientDAO:45 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:42:37 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:42:38 ERROR ClientDAO:45 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:86)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:43:44 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:43:45 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:44:41 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:44:42 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:90)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:45:23 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:45:24 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:19)
+2018-12-02 19:47:16 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:47:17 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:20)
+2018-12-02 19:47:40 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:47:41 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:20)
+2018-12-02 19:48:46 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 19:48:47 ERROR ClientDAO:46 - Can't read Client from DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:945)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getString(ResultSetImpl.java:967)
+	at org.apache.commons.dbcp.DelegatingResultSet.getString(DelegatingResultSet.java:225)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.extractClient(ClientDAO.java:87)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:42)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.read(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:20)
+2018-12-02 20:05:00 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:18:29 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:18:48 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:47:29 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:47:31 ERROR ClientDAO:62 - Can't read Client from DB!!!
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'nameOrganization = null WHERE id = 2' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.update(ClientDAO.java:58)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.update(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.update(IServiceFile.java:18)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:21)
+2018-12-02 20:48:07 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:48:08 ERROR ClientDAO:62 - Can't update Client into DB!!!
+java.sql.SQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'nameOrganization = null WHERE id = 2' at line 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.update(ClientDAO.java:58)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.update(ClientDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.update(IServiceFile.java:18)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:21)
+2018-12-02 20:49:19 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:50:17 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:56:56 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:57:35 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:58:02 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:59:24 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:59:33 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 20:59:46 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:09:40 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:14:53 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:17:13 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:17:43 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:17:45 ERROR InsuredPersonDAO:28 - Can't insert insured person into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '76538245' for key 'number_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:24)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:32)
+2018-12-02 22:18:09 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:37:23 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:37:25 ERROR InsuredPersonDAO:28 - Can't insert insured person into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '76548245' for key 'number_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:24)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:32)
+2018-12-02 22:37:41 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:39:15 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:39:46 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:41:26 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:42:00 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 22:42:01 ERROR InsuredPersonDAO:28 - Can't insert insured person into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '76588245' for key 'number_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:24)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:32)
+2018-12-02 22:42:33 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 23:22:25 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 23:25:05 INFO  ConnectionFactory:34 - input file open!
+2018-12-02 23:30:32 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 01:58:54 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 01:58:55 ERROR InsuredPersonDAO:30 - Can't insert insured person into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '76588245' for key 'number_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:14)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:32)
+2018-12-03 01:59:04 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 01:59:33 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:00:09 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:02:14 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:02:55 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:14:14 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:15:34 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:37:01 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:37:02 ERROR InsuredPersonDAO:57 - Can't update insured person into DB!!!
+java.sql.SQLSyntaxErrorException: Unknown column 'firsdtName' in 'field list'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.update(InsuredPersonDAO.java:53)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.update(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.update(IServiceFile.java:18)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:33)
+2018-12-03 02:38:29 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:41:24 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:41:57 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 02:42:38 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:26:34 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:26:35 ERROR ContractDAO:33 - Can't insert Contract into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`insurance`.`contract`, CONSTRAINT `fk_Contract_Client` FOREIGN KEY (`Client_id`) REFERENCES `client` (`id`) ON DELETE NO ACTION ON UPDATE NO ACTION)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:29)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:15)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 09:40:12 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:40:13 ERROR ClientDAO:36 - Can't insert Client into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:30)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:50)
+2018-12-03 09:40:13 ERROR InsuredPersonDAO:33 - Can't insert insured person into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:51)
+2018-12-03 09:40:13 ERROR InsuredPersonDAO:33 - Can't insert insured person into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:52)
+2018-12-03 09:40:13 ERROR ContractDAO:32 - Can't insert Contract into DB!!!
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:318)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 09:50:40 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:50:41 ERROR ClientDAO:36 - Can't insert Client into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:30)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:50)
+2018-12-03 09:50:41 ERROR InsuredPersonDAO:33 - Can't insert insured person into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:51)
+2018-12-03 09:50:41 ERROR InsuredPersonDAO:33 - Can't insert insured person into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:52)
+2018-12-03 09:50:41 ERROR ContractDAO:32 - Can't insert Contract into DB!!!
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:318)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 09:52:26 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:53:03 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:53:05 ERROR ClientDAO:36 - Can't insert Client into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.next(ResultSetImpl.java:1808)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:30)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:50)
+2018-12-03 09:59:09 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 09:59:10 ERROR ClientDAO:34 - Can't insert Client into DB!!!
+java.sql.SQLException: Operation not allowed after ResultSet closed
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkClosed(ResultSetImpl.java:470)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:514)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getLong(ResultSetImpl.java:921)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:30)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:50)
+2018-12-03 10:02:43 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:03:22 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:10:02 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:10:04 ERROR ContractDAO:33 - Can't insert Contract into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`insurance`.`contract_insuredperson`, CONSTRAINT `fk_Contract_has_InsuredPerson_Contract1` FOREIGN KEY (`Contract_number`) REFERENCES `contract` (`number`) ON DELETE NO ACTION ON UPDATE NO ACT)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 10:15:46 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:15:47 ERROR ContractDAO:36 - Can't insert Contract into DB!!!
+java.sql.SQLException: Generated keys not requested. You need to specify Statement.RETURN_GENERATED_KEYS to Statement.executeUpdate(), Statement.executeLargeUpdate() or Connection.prepareStatement().
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.StatementImpl.getGeneratedKeys(StatementImpl.java:1396)
+	at org.apache.commons.dbcp.DelegatingStatement.getGeneratedKeys(DelegatingStatement.java:318)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:28)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 10:18:20 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:18:21 ERROR ContractDAO:36 - Can't insert Contract into DB!!!
+java.sql.SQLException: Before start of result set
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.checkRowPos(ResultSetImpl.java:517)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getLong(ResultSetImpl.java:921)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:29)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 10:19:38 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:19:39 ERROR ContractDAO:38 - Can't insert Contract into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`insurance`.`contract_insuredperson`, CONSTRAINT `fk_Contract_has_InsuredPerson_Contract1` FOREIGN KEY (`Contract_number`) REFERENCES `contract` (`number`) ON DELETE NO ACTION ON UPDATE NO ACT)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:34)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 10:25:05 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:25:07 ERROR ContractDAO:38 - Can't insert Contract into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`insurance`.`contract_insuredperson`, CONSTRAINT `fk_Contract_has_InsuredPerson_Contract1` FOREIGN KEY (`Contract_number`) REFERENCES `contract` (`number`) ON DELETE NO ACTION ON UPDATE NO ACT)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:34)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.create(IServiceFile.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:53)
+2018-12-03 10:42:01 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:52:40 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 10:54:35 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:17:35 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:18:20 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:53:13 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:53:14 ERROR ContractDAO:66 - Can't read Contract from DB!!!
+java.sql.SQLSyntaxErrorException: Unknown column 'id' in 'where clause'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1024)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:93)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.read(ContractDAO.java:58)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.read(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:59)
+2018-12-03 11:54:08 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:54:09 ERROR ContractDAO:66 - Can't read Contract from DB!!!
+java.sql.SQLException: Column 'number' not found.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:89)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:63)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.findColumn(ResultSetImpl.java:581)
+	at com.mysql.cj.jdbc.result.ResultSetImpl.getLong(ResultSetImpl.java:928)
+	at org.apache.commons.dbcp.DelegatingResultSet.getLong(DelegatingResultSet.java:240)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.extractContract(ContractDAO.java:122)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.read(ContractDAO.java:61)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.read(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.read(IServiceFile.java:14)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:59)
+2018-12-03 11:54:59 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:56:36 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 11:57:51 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 12:56:04 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 13:05:21 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 13:05:22 ERROR ContractDAO:100 - Can't delete Contract from DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Cannot delete or update a parent row: a foreign key constraint fails (`insurance`.`contract_insuredperson`, CONSTRAINT `fk_Contract_has_InsuredPerson_Contract1` FOREIGN KEY (`Contract_number`) REFERENCES `contract` (`number`) ON DELETE NO ACTION ON UPDATE NO ACT)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.delete(ContractDAO.java:96)
+	at ua.profitsoft.strymeneshenko.service.IServiceFile.delete(IServiceFile.java:22)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:63)
+2018-12-03 13:07:54 INFO  ConnectionFactory:34 - input file open!
+2018-12-03 13:14:53 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:07:01 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:09:39 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:10:23 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:11:39 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:12:23 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:13:45 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:13:53 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:16:11 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:16:21 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:20:33 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:21:43 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:22:31 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:31:25 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:36:42 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:42:49 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:54:46 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 11:59:52 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:33:51 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:39:28 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:41:31 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:45:04 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:45:12 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:45:13 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '11572439' for key 'number_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:28)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAOTest.CRUD(ContractDAOTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-12-07 12:45:13 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '94571129' for key 'number_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:28)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAOTest.CRUD(ContractDAOTest.java:27)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-12-07 12:45:13 ERROR ContractDAO:50 - Can't insert Contract into DB!!!
+java.sql.BatchUpdateException: Cannot add or update a child row: a foreign key constraint fails (`insurance`.`contract_insuredperson`, CONSTRAINT `fk_Contract_has_InsuredPerson_InsuredPerson1` FOREIGN KEY (`InsuredPerson_id`) REFERENCES `insuredperson` (`id`) ON DELETE NO ACTION ON UPDATE)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:191)
+	at com.mysql.cj.util.Util.getInstance(Util.java:166)
+	at com.mysql.cj.util.Util.getInstance(Util.java:173)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:874)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:456)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:46)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAOTest.CRUD(ContractDAOTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`insurance`.`contract_insuredperson`, CONSTRAINT `fk_Contract_has_InsuredPerson_InsuredPerson1` FOREIGN KEY (`InsuredPerson_id`) REFERENCES `insuredperson` (`id`) ON DELETE NO ACTION ON UPDATE)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	... 29 more
+2018-12-07 12:45:34 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:46:20 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:46:33 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:47:25 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:49:17 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:51:27 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:53:05 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:53:38 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:53:58 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:54:42 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:55:01 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:56:47 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:59:38 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 12:59:39 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+java.sql.SQLIntegrityConstraintViolationException: Duplicate entry '11572439' for key 'number_UNIQUE'
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1061)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1381)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1046)
+	at org.apache.commons.dbcp.DelegatingPreparedStatement.executeUpdate(DelegatingPreparedStatement.java:102)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:28)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAOTest.CRUD(ContractDAOTest.java:26)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+2018-12-07 12:59:39 ERROR ContractDAO:50 - Can't insert Contract into DB!!!
+java.sql.BatchUpdateException: Cannot add or update a child row: a foreign key constraint fails (`insurance`.`contract_insuredperson`, CONSTRAINT `fk_Contract_has_InsuredPerson_InsuredPerson1` FOREIGN KEY (`InsuredPerson_id`) REFERENCES `insuredperson` (`id`) ON DELETE NO ACTION ON UPDATE)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.util.Util.handleNewInstance(Util.java:191)
+	at com.mysql.cj.util.Util.getInstance(Util.java:166)
+	at com.mysql.cj.util.Util.getInstance(Util.java:173)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createBatchUpdateException(SQLError.java:224)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:874)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchInternal(ClientPreparedStatement.java:456)
+	at com.mysql.cj.jdbc.StatementImpl.executeBatch(StatementImpl.java:814)
+	at org.apache.commons.dbcp.DelegatingStatement.executeBatch(DelegatingStatement.java:297)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:46)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAO.create(ContractDAO.java:12)
+	at ua.profitsoft.strymeneshenko.db.dao.ContractDAOTest.CRUD(ContractDAOTest.java:37)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:59)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+	at org.junit.runners.Suite.runChild(Suite.java:128)
+	at org.junit.runners.Suite.runChild(Suite.java:27)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.execution.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:47)
+	at com.intellij.rt.execution.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:242)
+	at com.intellij.rt.execution.junit.JUnitStarter.main(JUnitStarter.java:70)
+Caused by: java.sql.SQLIntegrityConstraintViolationException: Cannot add or update a child row: a foreign key constraint fails (`insurance`.`contract_insuredperson`, CONSTRAINT `fk_Contract_has_InsuredPerson_InsuredPerson1` FOREIGN KEY (`InsuredPerson_id`) REFERENCES `insuredperson` (`id`) ON DELETE NO ACTION ON UPDATE)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:117)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:974)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1113)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeBatchSerially(ClientPreparedStatement.java:853)
+	... 37 more
+2018-12-07 13:04:08 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 13:14:34 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 13:15:20 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 13:15:56 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 13:21:27 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 13:36:05 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 13:38:22 INFO  ConnectionFactory:34 - input file open!
+2018-12-07 13:41:07 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 10:16:39 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 14:03:02 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 14:03:55 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 14:06:19 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 14:06:54 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 15:21:48 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 15:26:03 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 15:29:23 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 15:44:09 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 15:51:07 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 17:33:42 ERROR ConnectionFactory:37 - File doesn't exist!
+java.io.FileNotFoundException: resources\db.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.<init>(ConnectionFactory.java:33)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getInstance(ConnectionFactory.java:25)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.<init>(ClientDAO.java:15)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1262)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:142)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:85)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:13)
+2018-12-09 17:33:45 ERROR ClientDAO:37 - Can't insert Client into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:26)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:33:45 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:27)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:33:45 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:28)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:34:27 ERROR ConnectionFactory:37 - File doesn't exist!
+java.io.FileNotFoundException: db.properties (Не удается найти указанный файл)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.<init>(ConnectionFactory.java:33)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getInstance(ConnectionFactory.java:25)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.<init>(ClientDAO.java:15)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1262)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:142)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:85)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:13)
+2018-12-09 17:34:29 ERROR ClientDAO:37 - Can't insert Client into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:26)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:34:30 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:27)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:34:30 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:28)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:35:25 ERROR ConnectionFactory:37 - File doesn't exist!
+java.io.FileNotFoundException: src\main\java\resources\db.properties (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.<init>(ConnectionFactory.java:33)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getInstance(ConnectionFactory.java:25)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.<init>(ClientDAO.java:15)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1262)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:142)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:85)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:13)
+2018-12-09 17:35:28 ERROR ClientDAO:37 - Can't insert Client into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:26)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:35:28 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:27)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:35:28 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:28)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:35:53 ERROR ConnectionFactory:37 - File doesn't exist!
+java.io.FileNotFoundException: \src\main\java\resources\db.properties (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.<init>(ConnectionFactory.java:33)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getInstance(ConnectionFactory.java:25)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.<init>(ClientDAO.java:15)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1262)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:142)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:85)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:13)
+2018-12-09 17:35:55 ERROR ClientDAO:37 - Can't insert Client into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:26)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:35:56 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:27)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:35:56 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:28)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:36:08 ERROR ConnectionFactory:37 - File doesn't exist!
+java.io.FileNotFoundException: .\src\main\java\resources\db.properties (Системе не удается найти указанный путь)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.<init>(ConnectionFactory.java:33)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getInstance(ConnectionFactory.java:25)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.<init>(ClientDAO.java:15)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at org.springframework.beans.BeanUtils.instantiateClass(BeanUtils.java:172)
+	at org.springframework.beans.factory.support.SimpleInstantiationStrategy.instantiate(SimpleInstantiationStrategy.java:87)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.instantiateBean(AbstractAutowireCapableBeanFactory.java:1262)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1164)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:538)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:273)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1239)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1166)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:593)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:90)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:374)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1378)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:575)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:498)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:320)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:318)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:846)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:863)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:546)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:142)
+	at org.springframework.context.support.FileSystemXmlApplicationContext.<init>(FileSystemXmlApplicationContext.java:85)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:13)
+2018-12-09 17:36:11 ERROR ClientDAO:37 - Can't insert Client into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:27)
+	at ua.profitsoft.strymeneshenko.db.dao.ClientDAO.create(ClientDAO.java:11)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:26)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)
+	at java.net.InetAddress$2.lookupAllHostAddr(InetAddress.java:928)
+	at java.net.InetAddress.getAddressesFromNameService(InetAddress.java:1323)
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1276)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:36:11 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:27)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:36:11 ERROR InsuredPersonDAO:36 - Can't insert insured person into DB!!!
+org.apache.commons.dbcp.SQLNestedException: Cannot create PoolableConnectionFactory (Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1225)
+	at org.apache.commons.dbcp.BasicDataSource.getConnection(BasicDataSource.java:880)
+	at ua.profitsoft.strymeneshenko.db.ConnectionFactory.getMySQLConnection(ConnectionFactory.java:50)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:26)
+	at ua.profitsoft.strymeneshenko.db.dao.InsuredPersonDAO.create(InsuredPersonDAO.java:9)
+	at ua.profitsoft.strymeneshenko.service.IService.create(IService.java:10)
+	at ua.profitsoft.strymeneshenko.Demo.main(Demo.java:28)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:835)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:455)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:240)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:207)
+	at org.apache.commons.dbcp.DriverConnectionFactory.createConnection(DriverConnectionFactory.java:38)
+	at org.apache.commons.dbcp.PoolableConnectionFactory.makeObject(PoolableConnectionFactory.java:294)
+	at org.apache.commons.dbcp.BasicDataSource.validateConnectionFactory(BasicDataSource.java:1247)
+	at org.apache.commons.dbcp.BasicDataSource.createDataSource(BasicDataSource.java:1221)
+	... 6 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:91)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:152)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:955)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:825)
+	... 13 more
+Caused by: java.net.UnknownHostException: null
+	at java.net.InetAddress.getAllByName0(InetAddress.java:1280)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1192)
+	at java.net.InetAddress.getAllByName(InetAddress.java:1126)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:132)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:65)
+	... 16 more
+2018-12-09 17:39:04 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:22:18 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:28:29 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:31:24 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:34:20 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:35:27 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:38:06 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:38:34 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:41:06 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:41:57 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:44:57 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:47:00 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:51:17 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:53:16 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:54:05 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:54:27 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:56:28 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:56:50 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:57:06 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:57:21 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:57:33 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 22:59:55 INFO  ConnectionFactory:34 - input file open!
+2018-12-09 23:00:15 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 00:02:27 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 00:06:43 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 00:30:03 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 00:49:30 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 01:25:54 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 01:32:48 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 01:33:05 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 01:33:37 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 01:38:24 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 01:45:28 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 01:46:44 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 02:47:58 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 02:48:19 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 03:22:13 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 03:34:54 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 03:41:29 INFO  ConnectionFactory:34 - input file open!
+2018-12-10 06:25:18 INFO  ClientDAO:90 - File not found!
+2018-12-10 06:26:18 INFO  ClientDAO:90 - Data not found!
+2018-12-10 06:29:00 INFO  ClientDAO:90 - Data not found!
+2018-12-10 06:37:05 INFO  ClientDAO:90 - Data not found!
+2018-12-10 06:38:53 INFO  ClientDAO:90 - Data not found!
+2018-12-10 06:39:21 INFO  ClientDAO:90 - Data not found!
+2018-12-10 06:41:48 INFO  ClientDAO:90 - Data not found!
+2018-12-10 06:42:04 INFO  ClientDAO:90 - Data not found!
+2018-12-10 06:44:44 INFO  InsuredPersonDAO:69 - Can not read InsuredPerson!!!
+2018-12-10 07:03:59 INFO  ContractDAO:92 - Can not read Contract!!!
+2018-12-10 07:05:45 INFO  ContractDAO:92 - Can not read Contract!!!
+2018-12-10 07:08:08 INFO  InsuredPersonDAO:69 - Can not read InsuredPerson!!!
+2018-12-10 07:10:08 INFO  ContractDAO:92 - Can not read Contract!!!
+2018-12-10 07:12:40 INFO  ClientDAO:90 - Can not read Client!!!
+2018-12-10 07:12:40 INFO  ContractDAO:92 - Can not read Contract!!!
+2018-12-10 07:12:41 INFO  InsuredPersonDAO:69 - Can not read InsuredPerson!!!
+2018-12-10 07:12:41 INFO  ClientDAO:90 - Can not read Client!!!
+2018-12-10 07:12:42 INFO  ContractDAO:92 - Can not read Contract!!!
+2018-12-10 07:12:42 INFO  InsuredPersonDAO:69 - Can not read InsuredPerson!!!
