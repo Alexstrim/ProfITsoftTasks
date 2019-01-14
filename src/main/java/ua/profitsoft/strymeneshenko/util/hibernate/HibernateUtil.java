@@ -1,4 +1,4 @@
-package ua.profitsoft.strymeneshenko.util.hibernate;
+﻿package ua.profitsoft.strymeneshenko.util.hibernate;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
@@ -7,12 +7,10 @@ import org.hibernate.cfg.Configuration;
 public class HibernateUtil {
     private static final SessionFactory sessionFactory;
 
-    // Для того, чтобы session положить в объект потока, используется класс ThreadLocal
     public static final ThreadLocal threadLocal = new ThreadLocal();
 
-    // Инициализация SessionFactory
     static {
-        Configuration conf = new Configuration(); // Здесь можно указать динамич. параметры конфигурации
+        Configuration conf = new Configuration(); 
         sessionFactory = conf.configure().buildSessionFactory();
     }
 
