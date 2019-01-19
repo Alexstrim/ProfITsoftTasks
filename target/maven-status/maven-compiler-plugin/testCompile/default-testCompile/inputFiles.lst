@@ -1,4 +1,9 @@
-C:\Users\Александр\workSpaceForIDEA\Task1\src\test\java\ua\profitsoft\strymeneshenko\entity\ContractTest.java
-C:\Users\Александр\workSpaceForIDEA\Task1\src\test\java\ua\profitsoft\strymeneshenko\service\IServiceFileTest.java
-C:\Users\Александр\workSpaceForIDEA\Task1\src\test\java\ua\profitsoft\strymeneshenko\dao\ConractsFileDAOTest.java
-C:\Users\Александр\workSpaceForIDEA\Task1\src\test\java\ua\profitsoft\strymeneshenko\entity\InsuredPersonTest.java
+C:\Users\Александр\workSpaceForIDEA\Web_project_ProfIt\src\test\java\ua\profitsoft\strymeneshenko\service\InsuredPersonServiceTest.java
+C:\Users\Александр\workSpaceForIDEA\Web_project_ProfIt\src\test\java\ua\profitsoft\strymeneshenko\db\dao\InsuredPersonHibernateDAOTest.java
+C:\Users\Александр\workSpaceForIDEA\Web_project_ProfIt\src\test\java\ua\profitsoft\strymeneshenko\service\ClientServiceTest.java
+C:\Users\Александр\workSpaceForIDEA\Web_project_ProfIt\src\test\java\ua\profitsoft\strymeneshenko\data\ContractTest.java
+C:\Users\Александр\workSpaceForIDEA\Web_project_ProfIt\src\test\java\ua\profitsoft\strymeneshenko\service\ContractServiceTest.java
+C:\Users\Александр\workSpaceForIDEA\Web_project_ProfIt\src\test\java\ua\profitsoft\strymeneshenko\data\InsuredPersonTest.java
+C:\Users\Александр\workSpaceForIDEA\Web_project_ProfIt\src\test\java\ua\profitsoft\strymeneshenko\db\dao\ContractHibernateDAOTest.java
+C:\Users\Александр\workSpaceForIDEA\Web_project_ProfIt\src\test\java\ua\profitsoft\strymeneshenko\db\dao\ClientHibernateDAOTest.java
+C:\Users\Александр\workSpaceForIDEA\Web_project_ProfIt\src\test\java\ua\profitsoft\strymeneshenko\db\dao\ConractsFileDAOTest.java

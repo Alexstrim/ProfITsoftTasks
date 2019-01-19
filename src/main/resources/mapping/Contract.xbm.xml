@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC 	"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<hibernate-mapping package="ua.profitsoft.strymeneshenko.data">
+    <class name="Contract" table="contract">
+        <id name="number" type="java.lang.Long" column="number">
+            <generator class="native"/>
+        </id>
+        <property name="dateConclusion" column="dateConclusion"/>
+        <property name="startDate" column="startDate"/>
+        <property name="endDate" column="endDate"/>
+        <set name="persons" table="contract_insuredperson" cascade="all">
+            <key column="Contract_number"/>
+            <many-to-many class="InsuredPerson" column="InsuredPerson_id"/>
+        </set>
+        <many-to-one name="client" column="Client_id" class="Client" not-null="true" cascade="all"/>
+    </class>
+</hibernate-mapping>
