@@ -40,10 +40,13 @@
     </script>
 </head>
 <body>
-    <h1>First step of adding a contract</h1><br>
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="text-center">First step of adding a contract</h1>
+    </div>
     <c:if test="${not empty er}">
         <!-- Trigger the modal with a button -->
-        <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">show the fields that you must fill</button>
+        <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Show the fields that you must fill</button>
         <!-- Modal -->
         <div class="modal fade" id="myModal" role="dialog">
             <div class="modal-dialog">
@@ -52,29 +55,40 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <button type="button" class="close" data-dismiss="modal">&times;</button>
-                        <h4 class="modal-title">Modal Header</h4>
+                        <h4 class="modal-title">You must fill</h4>
                     </div>
                     <div class="modal-body">
                         <c:forEach var="error" items="${er}">
-                            <font color="red"><c:out value="${error.value}"/><br></font>
+                            <font class="text-danger"><c:out value="${error.value}"/><br></font>
                         </c:forEach>
                     </div>
                     <div class="modal-footer">
                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
                     </div>
                 </div>
-
             </div>
         </div>
     </c:if>
     <form method="post">
-        Date conclusion: <outDate:inputDate name="dateConclusion"/><br>
-        Start date of contract: <outDate:inputDate name="startDate"/><br>
-        End date of contract: <outDate:inputDate name="endDate"/><br>
-        <input type="submit" name = "next" value="Next">
+        <div class="form-group center-block">
+            <label class="col-form-label" for="conclusion">Date conclusion:</label>
+            <div class="">
+                <outDate:inputDate name="dateConclusion" id="conclusion"/>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="start">Start date of contract:</label>
+            <outDate:inputDate name="startDate" id="start"/>
+        </div>
+        <div class="form-group">
+            <label for="end">End date of contract:</label>
+            <outDate:inputDate name="endDate" id="end"/>
+        </div>
+        <input style="margin-right: 10px" class = "btn btn-primary col-lg-1" type="submit" name = "next" value="Next">
     </form>
     <form method="post">
-        <input type="submit" name="Cancel" value="Cancel">
+        <input class="btn btn-danger col-lg-1" type="submit" name="Cancel" value="Cancel">
     </form>
+</div>
 </body>
 </html>
