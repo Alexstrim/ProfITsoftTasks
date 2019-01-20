@@ -18,7 +18,7 @@
 <body>
 <div class="container-fluid">
     <div class = "jumbotron">
-        <h1>All contracts here</h1>
+        <h1 class="text-center">All contracts here</h1>
     </div>
     <ul class = "list-group">
         <li class = "list-group-item" ><a href="addNewClient.jsp" class="btn btn-success btn-block">Add new Client</a></li>
