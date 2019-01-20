@@ -10,10 +10,30 @@
 <html>
 <head>
     <title>Show all contracts</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-<h1>All contracts here</h1>
-<table border = "1 px">
+<div class="container-fluid">
+    <div class = "jumbotron">
+        <h1>All contracts here</h1>
+    </div>
+    <ul class = "list-group">
+        <li class = "list-group-item" ><a href="addNewClient.jsp" class="btn btn-success btn-block">Add new Client</a></li>
+        <li class = "list-group-item" ><a href="addNewInsuredPerson.jsp" class="btn btn-success btn-block">Add new Insured Person</a></li>
+        <li class = "list-group-item" ><a href="AddContractServlet" class="btn btn-success btn-block">Add new Contract</a></li>
+    </ul>
+<table class="table">
+        <tr>
+            <th>№</th>
+            <th>Client</th>
+            <th>Date conclusion</th>
+            <th>Start date</th>
+            <th>End date</th>
+            <th colspan="4">Persons list</th>
+        </tr>
     <c:forEach var="con" items="${sessionScope.contracts}">
         <%--<c:set var="contractId" value="${con.number}" scope="session"/>--%>
         <tr>
@@ -32,29 +52,24 @@
             <td>
                 <form action="ShowInfoContractServlet" method="get">
                     <input type="hidden" name="contractId" value="${con.number}">
-                    <input type="submit" value="View contract information">
+                    <input type="submit" class="btn btn-info" value="View contract information">
                 </form>
             </td>
             <td>
                 <form action="DeleteContractServlet" method="post">
                     <input type="hidden" name="contractId" value="${con.number}">
-                    <input type="submit" value="Delete contract">
+                    <input type="submit" class="btn btn-danger" value="Delete contract">
                 </form>
             </td>
             <td>
                 <form action="EditContractServlet" method="get">
                     <input type="hidden" name="contractId" value="${con.number}">
-                    <input type="submit" value="Edit contract">
+                    <input type="submit" class="btn btn-success" value="Edit contract">
                 </form>
             </td>
         </tr>
     </c:forEach>
-    <br>
-    <ul>
-        <li><a href="addNewClient.jsp">Add new Client</a></li>
-        <li><a href="addNewInsuredPerson.jsp">Add new Insured Person</a></li>
-        <li><a href="AddContractServlet">Add new Contract</a></li>
-    </ul>
 </table>
+</div>
 </body>
 </html>
