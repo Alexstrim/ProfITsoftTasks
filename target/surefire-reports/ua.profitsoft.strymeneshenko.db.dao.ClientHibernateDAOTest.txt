@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: ua.profitsoft.strymeneshenko.db.dao.ClientHibernateDAOTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 10.33 sec
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 16.864 sec

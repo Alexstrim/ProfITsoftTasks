@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="0" name="ua.profitsoft.strymeneshenko.data.ContractTest" time="0.362" errors="0" skipped="0">
+<testsuite tests="4" failures="0" name="ua.profitsoft.strymeneshenko.data.ContractTest" time="0.415" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2018.2.7"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,8 +62,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="sortPersonsByDateOfBirth" time="0.244"/>
-  <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="allCost" time="0.113"/>
-  <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="sortPersonsInAlphaBeticalOrder" time="0.003"/>
-  <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="findPersonByIN" time="0.002"/>
+  <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="sortPersonsByDateOfBirth" time="0.298"/>
+  <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="allCost" time="0.111"/>
+  <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="sortPersonsInAlphaBeticalOrder" time="0.002"/>
+  <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="findPersonByIN" time="0.004"/>
 </testsuite>
