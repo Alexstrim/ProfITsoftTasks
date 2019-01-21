@@ -72,9 +72,7 @@
     <form method="post">
         <div class="form-group center-block">
             <label class="col-form-label" for="conclusion">Date conclusion:</label>
-            <div class="">
-                <outDate:inputDate name="dateConclusion" id="conclusion"/>
-            </div>
+            <outDate:inputDate name="dateConclusion" id="conclusion"/>
         </div>
         <div class="form-group">
             <label for="start">Start date of contract:</label>

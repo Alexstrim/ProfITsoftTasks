@@ -35,21 +35,33 @@
     </script>
 </head>
 <body>
-    <h1>Fill in the fields you want to change</h1>
+<div class="container">
+    <div class="jumbotron">
+        <h1 class="text-center">Fill in the fields you want to change</h1>
+    </div>
     <form action="/EditContractServlet" method="post">
-        Date conclusion will look: <c:out value="${editContract.dateConclusion}"/><br>
-        Start date will look: <c:out value="${editContract.startDate}"/><br>
-        End date will look: <c:out value="${editContract.endDate}"/><br>
-        <input type="submit" value="Apply">
+        <h3 class="text-info">Date conclusion will look: <c:out value="${editContract.dateConclusion}"/></h3>
+        <h3 class="text-info">Start date will look: <c:out value="${editContract.startDate}"/></h3>
+        <h3 class="text-info">End date will look: <c:out value="${editContract.endDate}"/></h3>
+        <input type="submit" class="btn btn-primary" value="Apply">
     </form>
     <br>
     <form method="post">
-        Date conclusion: <input type="date" name="dateConclusion"><br>
-        Start date of contract: <input type="date" name="startDate"><br>
-        End date of contract: <input type="date" name="endDate"><br>
-        <input type="submit" name="edit" value="Edit">
+        <div class="form-group">
+            <label for="conclusion">Date conclusion:</label>
+            <input type="date" class="form-control" id="conclusion" name="dateConclusion">
+        </div>
+        <div class="form-group">
+            <label for="start">Start date of contract:</label>
+            <input type="date" class="form-control" id="start" name="startDate">
+        </div>
+        <div class="form-group">
+            <label for="end">End date of contract:</label>
+            <input type="date" class="form-control" id="end" name="endDate">
+        </div>
+        <input type="submit"  class="btn btn-success col-lg-1" style="margin-right: 10px" name="edit" value="Edit">
+        <a class="btn btn-danger col-lg-1" href="/ShowContractsServlet">cancel</a>
     </form>
-    <br>
-    <a href="/ShowContractsServlet">cancel</a>
+</div>
 </body>
 </html>

@@ -20,25 +20,33 @@
             response.sendRedirect("ShowContractsServlet");
         }
     %>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-    <h1>Second step of adding a contract</h1><br>
-    <h2>List of clients who have not yet signed a contract: </h2>
-    <table>
+<div class = "container">
+    <div class="jumbotron">
+        <h1 class="text-center">Second step of adding a contract</h1>
+    </div>
+    <h2 class="text-info">List of clients who have not yet signed a contract: </h2>
+    <table class="table">
         <c:forEach var="client" items="${sessionScope.clients}">
             <tr>
                 <td>${client}</td>
                 <td>
                     <form action="AddContractServlet" method="post">
                         <input type="hidden" name="client" value="${client.id}">
-                        <input type="submit" name ="command" value="Add to contract">
+                        <input class="btn btn-success" type="submit" name ="command" value="Add to contract">
                     </form>
                 </td>
             </tr>
         </c:forEach>
     </table>
     <form method="post">
-        <input type="submit" name="Cancel" value="Cancel">
+        <input type="submit" class="btn btn-danger" name="Cancel" value="Cancel">
     </form>
+</div>
 </body>
 </html>
