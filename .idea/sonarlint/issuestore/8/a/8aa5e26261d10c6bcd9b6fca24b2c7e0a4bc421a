@@ -1,0 +1,8 @@
+
+Ysquid:S2209"5Change this instance-reference to a static reference.(’ÂÆ»øÿÿÿÿ8öÎÔ†-
+Usquid:S2696Š"6Make the enclosing method "static" or remove this set.(‹’ª„8öÎÔ†-
+ˆsquid:S14889"eImmediately return this expression instead of assigning it to the temporary variable "insuredPerson".(Ö€Œàüÿÿÿÿ8öÎÔ†-
+Zsquid:S2696"6Make the enclosing method "static" or remove this set.(’ÂÆ»øÿÿÿÿ8öÎÔ†-
+Tsquid:S2209Š"5Change this instance-reference to a static reference.(‹’ª„8öÎÔ†-
+squid:S3008("bRename this field "EXTRACT_CONTRACT_MAPPER" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñ‡±o8öÎÔ†-
+}squid:S30086"ZRename this field "EXTRACT_PERSONS" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(Ñë¯Òùÿÿÿÿ8öÎÔ†-
