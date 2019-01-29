@@ -44,7 +44,7 @@
     <div class="jumbotron">
         <h1 class="text-center">First step of adding a contract</h1>
     </div>
-    <c:if test="${not empty er}">
+   <%-- <c:if test="${not empty er}">
         <!-- Trigger the modal with a button -->
         <button type="button" class="btn btn-info" data-toggle="modal" data-target="#myModal">Show the fields that you must fill</button>
         <!-- Modal -->
@@ -68,7 +68,7 @@
                 </div>
             </div>
         </div>
-    </c:if>
+    </c:if>--%>
     <form method="post">
         <div class="form-group center-block">
             <label class="col-form-label" for="conclusion">Date conclusion:</label>

@@ -15,24 +15,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <%--<script>
-        <%
-        if (request.getParameter("edit") != null) {
-            String dateConc = request.getParameter("dateConclusion");
-            String dateStart = request.getParameter("startDate");
-            String dateEnd = request.getParameter("endDate");
-            if(dateConc != ""){
-                editContract.setDateConclusion(UtilDate.stringToDate(dateConc,"yyyy-MM-dd"));
-            }
-            if(dateStart != ""){
-                editContract.setStartDate(UtilDate.stringToDate(dateStart,"yyyy-MM-dd"));
-            }
-            if(dateEnd != ""){
-                editContract.setEndDate(UtilDate.stringToDate(dateEnd,"yyyy-MM-dd"));
-            }
-        }
-        %>
-    </script>--%>
 </head>
 <body>
 <div class="container">
