@@ -1,12 +1,19 @@
 package ua.profitsoft.strymeneshenko.data;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
+import javax.validation.constraints.Size;
 import java.util.Objects;
 
 //Entity individual
 public class Individual extends Client {
 
-    private String firstName = "";
-    private String lastName = "";
+    @NotEmpty
+    @Size(min = 2, max = 30)
+    private String firstName;
+    @NotEmpty
+    @Size(min = 2, max = 30)
+    private String lastName;
 
     public Individual() {
     }

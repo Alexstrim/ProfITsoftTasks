@@ -1,12 +1,16 @@
 package ua.profitsoft.strymeneshenko.data;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
+import javax.validation.constraints.Size;
 import java.util.Objects;
 
 //Abstract data client
 public abstract class Client {
 
     protected long id = 0;
-
+    @NotEmpty
+    @Size(min = 5, max = 40)
     protected String adress = "";
 
     public Client() {

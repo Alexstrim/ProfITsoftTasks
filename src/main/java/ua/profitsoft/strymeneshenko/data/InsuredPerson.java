@@ -1,9 +1,13 @@
 package ua.profitsoft.strymeneshenko.data;
 
-import org.apache.log4j.Logger;
+import org.hibernate.validator.constraints.NotEmpty;
 import org.springframework.format.annotation.DateTimeFormat;
 import ua.profitsoft.strymeneshenko.util.UtilDate;
 
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Past;
+import javax.validation.constraints.Size;
 import java.util.Date;
 import java.util.Objects;
 
@@ -11,11 +15,20 @@ import java.util.Objects;
 public class InsuredPerson {
 
     private long id = 0;
-    private String firstName = "";
-    private String lastName = "";
-    private Date dateOfBirth = null;
-    private int cost = 0;
-    private long identificationNumber = 0;
+    @NotEmpty
+    @Size(min = 2, max = 30)
+    private String firstName;
+    @NotEmpty
+    @Size(min = 2, max = 30)
+    private String lastName;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @NotNull
+    @Past
+    private Date dateOfBirth;
+    @NotNull
+    private Integer cost;
+    @NotNull
+    private Long identificationNumber;
 
     public InsuredPerson() {
     }
@@ -33,11 +46,11 @@ public class InsuredPerson {
         return lastName + " " + firstName.substring(0, 1) + ".";
     }
 
-    public long getIdentificationNumber() {
+    public Long getIdentificationNumber() {
         return identificationNumber;
     }
 
-    public void setIdentificationNumber(long identificationNumber) {
+    public void setIdentificationNumber(Long identificationNumber) {
         this.identificationNumber = identificationNumber;
     }
 
@@ -63,11 +76,11 @@ public class InsuredPerson {
 
     public void setDateOfBirth(Date dateOfBirth) { this.dateOfBirth = dateOfBirth; }
 
-    public int getCost() {
+    public Integer getCost() {
         return cost;
     }
 
-    public void setCost(int cost) {
+    public void setCost(Integer cost) {
         this.cost = cost;
     }
 

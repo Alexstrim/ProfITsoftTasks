@@ -1,8 +1,14 @@
 package ua.profitsoft.strymeneshenko.data;
 
+import org.hibernate.validator.constraints.NotEmpty;
+
+import javax.validation.constraints.Size;
+
 //Entity LegalEntity
 public class LegalEntity extends Client {
 
+    @NotEmpty
+    @Size(min = 2, max=40)
     private String nameOrganization = "";
 
     public LegalEntity() {
