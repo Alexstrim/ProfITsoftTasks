@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite tests="4" failures="3" name="ua.profitsoft.strymeneshenko.data.ContractTest" time="0.106" errors="0" skipped="0">
+<testsuite tests="4" failures="3" name="ua.profitsoft.strymeneshenko.data.ContractTest" time="0.041" errors="0" skipped="0">
   <properties>
     <property name="idea.version" value="2018.3.3"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
@@ -62,7 +62,7 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="sortPersonsByDateOfBirth" time="0.068">
+  <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="sortPersonsByDateOfBirth" time="0.001">
     <failure message="expected: ua.profitsoft.strymeneshenko.data.InsuredPerson&lt;
 InsuredPerson (id=0, firstName=Yaroslav, lastName=Zhykov, dateOfBirth=2000-02-15, cost=800, identificationNumber=123445671235)&gt; but was: ua.profitsoft.strymeneshenko.data.InsuredPerson&lt;
 InsuredPerson (id=0, firstName=Yaroslav, lastName=Zhykov, dateOfBirth=2000-02-15, cost=800, identificationNumber=123445671235)&gt;" type="java.lang.AssertionError">java.lang.AssertionError: expected: ua.profitsoft.strymeneshenko.data.InsuredPerson&lt;
@@ -106,7 +106,7 @@ InsuredPerson (id=0, firstName=Yaroslav, lastName=Zhykov, dateOfBirth=2000-02-15
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 </failure>
   </testcase>
-  <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="allCost" time="0.034"/>
+  <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="allCost" time="0.036"/>
   <testcase classname="ua.profitsoft.strymeneshenko.data.ContractTest" name="sortPersonsInAlphaBeticalOrder" time="0.003">
     <failure message="expected: ua.profitsoft.strymeneshenko.data.InsuredPerson&lt;
 InsuredPerson (id=0, firstName=Dima, lastName=Pypkin, dateOfBirth=2001-02-15, cost=700, identificationNumber=123345671235)&gt; but was: ua.profitsoft.strymeneshenko.data.InsuredPerson&lt;

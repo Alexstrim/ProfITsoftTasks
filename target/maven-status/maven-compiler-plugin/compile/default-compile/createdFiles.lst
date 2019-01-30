@@ -6,6 +6,7 @@ ua\profitsoft\strymeneshenko\data\Contract$1.class
 ua\profitsoft\strymeneshenko\db\dao\jdbctemplate\ContractDAO.class
 ua\profitsoft\strymeneshenko\controllers\servlets\ShowInfoContractServlet.class
 ua\profitsoft\strymeneshenko\db\ConnectionFactory.class
+ua\profitsoft\strymeneshenko\controllers\mvc\AddContractController.class
 ua\profitsoft\strymeneshenko\controllers\mvc\ShowInfoContractController.class
 ua\profitsoft\strymeneshenko\Demo.class
 ua\profitsoft\strymeneshenko\controllers\mvc\EditContractController.class

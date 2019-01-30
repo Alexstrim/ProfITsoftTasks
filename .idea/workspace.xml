@@ -54,25 +54,34 @@
     </expand>
     <select />
   </component>
+  <component name="ExecutionTargetDialog">
+    <checked>
+      <node key="47f329a2-0da5-4a50-9b90-e662fa34c05a" />
+    </checked>
+  </component>
   <component name="FavoritesManager">
     <favorites_list name="Web_project_ProfIt" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract1Step.jsp">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/EditContractControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="137">
-              <caret line="20" column="95" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+            <state relative-caret-position="-141">
+              <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+              <folding>
+                <element signature="e#950#951#0" expanded="true" />
+                <element signature="e#1028#1029#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract2Step.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
+            <state relative-caret-position="17">
+              <caret line="7" column="70" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="70" />
             </state>
           </provider>
         </entry>
@@ -90,64 +99,75 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/mvc-context.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/servlets/AddClientServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+            <state relative-caret-position="119">
+              <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="51" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewClient.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/db/dao/hibernate/ContractHibernateDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="53" selection-end-column="32" />
+            <state relative-caret-position="68">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewInsuredPerson.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/EditContractController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1066">
-              <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
+            <state relative-caret-position="391">
+              <caret line="43" column="151" selection-start-line="43" selection-start-column="142" selection-end-line="43" selection-end-column="151" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/editContract.jsp">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowInfoContractControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="95" selection-start-line="16" selection-start-column="95" selection-end-line="16" selection-end-column="95" />
+            <state relative-caret-position="392">
+              <caret line="34" column="74" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="74" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/showAllContracts.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowInfoContractController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/showInfoContract.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="52" />
+            <state relative-caret-position="187">
+              <caret line="18" column="55" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract3Step.jsp">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowContractsControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
+            <state relative-caret-position="437">
+              <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#815#816#0" expanded="true" />
+                <element signature="e#884#885#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowContractsController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="18" column="37" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="37" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -158,12 +178,12 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Interface" />
-        <option value="JUnit4 Test Class" />
         <option value="FxmlFile" />
         <option value="Tag Library Descriptor" />
         <option value="Jsp File" />
         <option value="spring-beans.schema" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -196,9 +216,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/EditContractServlet.java" />
-        <option value="$PROJECT_DIR$/web/WEB-INF/utilDate.tld" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/validate/IValidate.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/validate/ContractValidate.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/validate/InsuredPersonValidate.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/AddInsuredPersonServlet.java" />
@@ -225,10 +242,8 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/view/showAllContracts.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowInfoContractController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowContractsController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/EditContractController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/DeleteContractController.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/servlets/AddClientServlet.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/webapp/addNewClient.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddInsuredPersonController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/addNewInsuredPerson.jsp" />
@@ -247,6 +262,11 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddClientController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/showAllContracts.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/addNewContract1Step.jsp" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowContractsControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowInfoContractControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/EditContractController.java" />
+        <option value="$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/EditContractControllerTest.java" />
       </list>
     </option>
   </component>
@@ -291,11 +311,11 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="539" />
-    <option name="y" value="-17" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -303,6 +323,17 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope">
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="ProfITsoftTasks-task8" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="strymeneshenko" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -370,15 +401,6 @@
               <item name="ProfITsoftTasks-task8" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="strymeneshenko" type="462c0819:PsiDirectoryNode" />
-              <item name="data" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ProfITsoftTasks-task8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ProfITsoftTasks-task8" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -396,22 +418,41 @@
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
               <item name="view" type="462c0819:PsiDirectoryNode" />
             </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope">
-        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
-          <expand>
             <path>
-              <item name="ProfITsoftTasks-task8" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="strymeneshenko" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="ProfITsoftTasks-task8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProfITsoftTasks-task8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProfITsoftTasks-task8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProfITsoftTasks-task8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProfITsoftTasks-task8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProfITsoftTasks-task8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strymeneshenko" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ProfITsoftTasks-task8" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ProfITsoftTasks-task8" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="strymeneshenko" type="462c0819:PsiDirectoryNode" />
+              <item name="mvc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -422,7 +463,7 @@
     <property name="SONARLINT_ANALYSIS_RESULTS_SPLIT_PROPORTION" value="0.6411264" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548843973868" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548859998691" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -439,11 +480,11 @@
       <recent name="ua.profitsoft.strymeneshenko.dao" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
+      <recent name="ua.profitsoft.strymeneshenko.controllers.mvc" />
       <recent name="ua.profitsoft.strymeneshenko.service" />
       <recent name="ua.profitsoft.strymeneshenko.db.dao" />
       <recent name="ua.profitsoft.strymeneshenko.dao" />
       <recent name="ua.profitsoft.strymeneshenko.filereader" />
-      <recent name="ua.profitsoft.strymeneshenko.entity" />
     </key>
     <key name="MoveMembersDialog.RECENTS_KEY">
       <recent name="ua.profitsoft.strymeneshenko.util.UtilDate" />
@@ -463,11 +504,11 @@
       <recent name="C:\Users\Александр\workSpaceForIDEA\Task1\resources" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\workspace\ProfITsoftTasks-task8\out\artifacts\WEB-INF\lib" />
       <recent name="C:\Users\user\workspace\ProfITsoftTasks-task8\src\main\webapp\view" />
       <recent name="C:\Users\user\workspace\ProfITsoftTasks-task8\src\main\webapp" />
       <recent name="C:\Users\user\workspace\ProfITsoftTasks-task8\src\main\webapp\WEB-INF\view" />
       <recent name="C:\Users\user\workspace\ProfITsoftTasks-task8\ProfITsoftTasks-task8\src\main\webapp" />
-      <recent name="C:\Users\user\workspace\ProfITsoftTasks-task8\ProfITsoftTasks-task8\src\main\resources" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -482,7 +523,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.92">
+  <component name="RunManager" selected="JUnit.EditContractControllerTest">
     <configuration name="Demo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ua.profitsoft.strymeneshenko.Demo" />
       <module name="Task1" />
@@ -496,9 +537,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="All in Task1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Task1" />
-      <option name="PACKAGE_NAME" value="" />
+    <configuration name="EditContractControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strymeneshenko" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.profitsoft.strymeneshenko.controllers.mvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.profitsoft.strymeneshenko.controllers.mvc" />
+      <option name="MAIN_CLASS_NAME" value="ua.profitsoft.strymeneshenko.controllers.mvc.EditContractControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowContractsControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strymeneshenko" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.profitsoft.strymeneshenko.controllers.mvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.profitsoft.strymeneshenko.controllers.mvc" />
+      <option name="MAIN_CLASS_NAME" value="ua.profitsoft.strymeneshenko.controllers.mvc.ShowContractsControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShowInfoContractControllerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strymeneshenko" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.profitsoft.strymeneshenko.controllers.mvc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.profitsoft.strymeneshenko.controllers.mvc" />
+      <option name="MAIN_CLASS_NAME" value="ua.profitsoft.strymeneshenko.controllers.mvc.ShowInfoContractControllerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ua.profitsoft.strymeneshenko in strymeneshenko" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strymeneshenko" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ua.profitsoft.strymeneshenko.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ua.profitsoft.strymeneshenko" />
       <option name="TEST_OBJECT" value="package" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -678,12 +770,18 @@
     <list>
       <item itemvalue="Application.Demo" />
       <item itemvalue="JavaScript Debug.showAllContracts.jsp" />
-      <item itemvalue="JUnit.All in Task1" />
+      <item itemvalue="JUnit.ua.profitsoft.strymeneshenko in strymeneshenko" />
       <item itemvalue="Tomcat Server.Tomcat 7.0.92" />
+      <item itemvalue="JUnit.ShowContractsControllerTest" />
+      <item itemvalue="JUnit.ShowInfoContractControllerTest" />
+      <item itemvalue="JUnit.EditContractControllerTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.All in Task1" />
+        <item itemvalue="JUnit.EditContractControllerTest" />
+        <item itemvalue="JUnit.ShowInfoContractControllerTest" />
+        <item itemvalue="JUnit.ShowContractsControllerTest" />
+        <item itemvalue="JUnit.ua.profitsoft.strymeneshenko in strymeneshenko" />
         <item itemvalue="JavaScript Debug.showAllContracts.jsp" />
       </list>
     </recent_temporary>
@@ -738,44 +836,45 @@
       <workItem from="1548670636717" duration="2282000" />
       <workItem from="1548679712372" duration="11654000" />
       <workItem from="1548749338264" duration="20189000" />
-      <workItem from="1548835032186" duration="7920000" />
+      <workItem from="1548835032186" duration="9700000" />
+      <workItem from="1548846478768" duration="13101000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ContractDAOTest - 2019.01.13 at 18h 50m 47s.xml">
-      <configuration name="ContractDAOTest" configurationId="JUnit" />
+    <history-entry file="EditContractControllerTest - 2019.01.30 at 16h 38m 47s.xml">
+      <configuration name="EditContractControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContractDAOTest - 2019.01.13 at 18h 51m 34s.xml">
-      <configuration name="ContractDAOTest" configurationId="JUnit" />
+    <history-entry file="EditContractControllerTest - 2019.01.30 at 16h 42m 27s.xml">
+      <configuration name="EditContractControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ContractDAOTest - 2019.01.13 at 18h 52m 37s.xml">
-      <configuration name="ContractDAOTest" configurationId="JUnit" />
+    <history-entry file="EditContractControllerTest - 2019.01.30 at 16h 43m 38s.xml">
+      <configuration name="EditContractControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Task1 - 2019.01.13 at 18h 53m 58s.xml">
-      <configuration name="All in Task1" configurationId="JUnit" />
+    <history-entry file="EditContractControllerTest - 2019.01.30 at 16h 44m 00s.xml">
+      <configuration name="EditContractControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Task1 - 2019.01.18 at 14h 06m 18s.xml">
-      <configuration name="All in Task1" configurationId="JUnit" />
+    <history-entry file="EditContractControllerTest - 2019.01.30 at 16h 45m 19s.xml">
+      <configuration name="EditContractControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Task1 - 2019.01.18 at 14h 08m 43s.xml">
-      <configuration name="All in Task1" configurationId="JUnit" />
+    <history-entry file="EditContractControllerTest - 2019.01.30 at 16h 47m 24s.xml">
+      <configuration name="EditContractControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Task1 - 2019.01.18 at 14h 09m 45s.xml">
-      <configuration name="All in Task1" configurationId="JUnit" />
+    <history-entry file="EditContractControllerTest - 2019.01.30 at 16h 47m 43s.xml">
+      <configuration name="EditContractControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Task1 - 2019.01.18 at 14h 10m 17s.xml">
-      <configuration name="All in Task1" configurationId="JUnit" />
+    <history-entry file="EditContractControllerTest - 2019.01.30 at 16h 49m 31s.xml">
+      <configuration name="EditContractControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Task1 - 2019.01.18 at 14h 12m 08s.xml">
-      <configuration name="All in Task1" configurationId="JUnit" />
+    <history-entry file="EditContractControllerTest - 2019.01.30 at 16h 50m 33s.xml">
+      <configuration name="EditContractControllerTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="All_in_Task1 - 2019.01.18 at 14h 13m 45s.xml">
-      <configuration name="All in Task1" configurationId="JUnit" />
+    <history-entry file="EditContractControllerTest - 2019.01.30 at 16h 53m 25s.xml">
+      <configuration name="EditContractControllerTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="445305000" />
+    <option name="totallyTimeSpent" value="460186000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -787,12 +886,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Web" order="0" sideWeight="0.502008" side_tool="true" weight="0.32197943" />
       <window_info id="Persistence" order="1" sideWeight="0.502008" side_tool="true" weight="0.32197943" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49799198" visible="true" weight="0.35127932" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49799198" visible="true" weight="0.35501066" />
       <window_info id="Structure" order="3" sideWeight="0.502008" side_tool="true" weight="0.32197943" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
@@ -801,12 +900,12 @@
       <window_info id="Favorites" order="8" sideWeight="0.502008" side_tool="true" weight="0.32197943" />
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32792208" />
       <window_info anchor="bottom" id="Message" order="1" />
-      <window_info anchor="bottom" id="Find" order="2" weight="0.32884097" />
-      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49807197" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="Find" order="2" weight="0.32792208" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49807197" weight="0.32792208" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39718616" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="7" weight="0.32884097" />
+      <window_info anchor="bottom" id="TODO" order="7" weight="0.32792208" />
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" weight="0.32884097" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.50192803" side_tool="true" weight="0.32884097" />
@@ -887,57 +986,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/web/css/bootstrap.css" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/validate/ClientValidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/validate/InsuredPersonValidate.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="24" column="90" selection-start-line="24" selection-start-column="90" selection-end-line="24" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/utilDate.tld">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="15" lean-forward="true" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/tags/inputDate.tag">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="53" selection-start-line="3" selection-start-column="53" selection-end-line="3" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_121/src.zip!/com/sun/jmx/mbeanserver/JmxMBeanServer.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/service/ClientService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="12" column="4" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/servlets/DeleteContractServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="20" column="33" selection-start-line="20" selection-start-column="11" selection-end-line="20" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/servlets/ShowContractsServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="31" column="58" lean-forward="true" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="58" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/servlets/ShowInfoContractServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -949,13 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="212">
           <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/db/dao/hibernate/ContractHibernateDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="36" selection-start-line="36" selection-end-line="36" />
         </state>
       </provider>
     </entry>
@@ -989,14 +1030,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/showInfoContract.jsp">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/out/artifacts/showAllContracts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-804" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/out/artifacts/showInfoContract.jsp" />
+    <entry file="file://$PROJECT_DIR$/out/artifacts/showAllContracts.jsp" />
     <entry file="das://47f329a2-0da5-4a50-9b90-e662fa34c05a/schema/insurance/table/insuredperson">
       <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
         <state>
@@ -1029,58 +1064,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="42" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/DeleteContractController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowInfoContractController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="20" column="46" selection-start-line="20" selection-start-column="46" selection-end-line="20" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddInsuredPersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="38" column="46" lean-forward="true" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/EditContractController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="474">
-          <caret line="48" column="5" selection-start-line="48" selection-start-column="5" selection-end-line="48" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/servlets/AddClientServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="47" column="24" selection-start-line="47" selection-start-column="24" selection-end-line="47" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1853">
-          <caret line="109" column="21" selection-start-line="109" selection-start-column="21" selection-end-line="109" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowContractsController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="5" selection-start-line="21" selection-start-column="5" selection-end-line="21" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1145,71 +1128,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddContractController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1241">
-          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="7" column="70" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/mvc-context.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewClient.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="780">
-          <caret line="51" column="20" lean-forward="true" selection-start-line="51" selection-start-column="20" selection-end-line="53" selection-end-column="32" />
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="53" selection-end-column="32" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract1Step.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
+        <state relative-caret-position="340">
           <caret line="20" column="95" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract2Step.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="561">
           <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract3Step.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="39" column="79" selection-start-line="39" selection-start-column="79" selection-end-line="39" selection-end-column="79" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewInsuredPerson.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1066">
+        <state relative-caret-position="1071">
           <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
         </state>
       </provider>
@@ -1223,15 +1165,186 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/showAllContracts.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
+        <state relative-caret-position="408">
           <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/showInfoContract.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="52" />
+        <state relative-caret-position="442">
+          <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract3Step.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/data/ContractTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="242">
+          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sql/DumpDB_2019_01_19.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/mvc-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="31" selection-start-line="24" selection-start-column="31" selection-end-line="24" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.2.2.RELEASE/spring-web-4.2.2.RELEASE.jar!/org/springframework/web/context/WebApplicationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="35" selection-end-line="63" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.21.RELEASE/spring-test-4.3.21.RELEASE.jar!/org/springframework/test/web/servlet/result/StatusResultMatchers.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="113" column="25" selection-start-line="113" selection-start-column="25" selection-end-line="113" selection-end-column="25" />
+          <folding>
+            <element signature="e#4344#4345#0" expanded="true" />
+            <element signature="e#4394#4395#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddContractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="919">
+          <caret line="73" column="42" selection-start-line="73" selection-start-column="42" selection-end-line="73" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddInsuredPersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="38" column="46" selection-start-line="38" selection-start-column="46" selection-end-line="38" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/DeleteContractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowContractsController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="18" column="37" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowInfoContractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-test/4.3.21.RELEASE/spring-test-4.3.21.RELEASE.jar!/org/springframework/test/context/junit4/statements/RunBeforeTestMethodCallbacks.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="26" selection-start-line="26" selection-end-line="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowContractsControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#815#816#0" expanded="true" />
+            <element signature="e#884#885#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowInfoContractControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="34" column="74" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="74" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/EditContractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="391">
+          <caret line="43" column="151" selection-start-line="43" selection-start-column="142" selection-end-line="43" selection-end-column="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/db/dao/hibernate/ContractHibernateDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/spring-context.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="7" column="70" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/servlets/AddClientServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="23" column="7" selection-start-line="23" selection-start-column="7" selection-end-line="25" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/EditContractControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-141">
+          <caret line="4" column="32" selection-start-line="4" selection-start-column="32" selection-end-line="4" selection-end-column="32" />
+          <folding>
+            <element signature="e#950#951#0" expanded="true" />
+            <element signature="e#1028#1029#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

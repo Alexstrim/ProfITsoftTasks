@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ua.profitsoft.strymeneshenko.data.ContractTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.154 sec <<< FAILURE!
-sortPersonsByDateOfBirth(ua.profitsoft.strymeneshenko.data.ContractTest)  Time elapsed: 0.068 sec  <<< FAILURE!
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.041 sec <<< FAILURE!
+sortPersonsByDateOfBirth(ua.profitsoft.strymeneshenko.data.ContractTest)  Time elapsed: 0.001 sec  <<< FAILURE!
 java.lang.AssertionError: expected: ua.profitsoft.strymeneshenko.data.InsuredPerson<
 InsuredPerson (id=0, firstName=Yaroslav, lastName=Zhykov, dateOfBirth=2000-02-15, cost=800, identificationNumber=123445671235)> but was: ua.profitsoft.strymeneshenko.data.InsuredPerson<
 InsuredPerson (id=0, firstName=Yaroslav, lastName=Zhykov, dateOfBirth=2000-02-15, cost=800, identificationNumber=123445671235)>
