@@ -1,10 +1,14 @@
 package ua.profitsoft.strymeneshenko.data;
 
 import org.apache.log4j.Logger;
+import org.hibernate.validator.constraints.NotEmpty;
+import org.springframework.format.annotation.DateTimeFormat;
 import ua.profitsoft.strymeneshenko.dict.IterationType;
 import ua.profitsoft.strymeneshenko.util.UtilDate;
 
 import javax.rmi.CORBA.Util;
+import javax.validation.constraints.NotNull;
+import javax.validation.constraints.Past;
 import java.util.*;
 
 //Entity Contract
@@ -12,9 +16,15 @@ public class Contract {
 
     private static final Logger LOGGER = Logger.getLogger(Contract.class);
 
-    private long number;
+    private Long number;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @NotNull
     private Date dateConclusion;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @NotNull
     private Date startDate;
+    @DateTimeFormat(pattern = "yyyy-MM-dd")
+    @NotNull
     private Date endDate;
     private Client client;
     private Set<InsuredPerson> persons = new HashSet<>();
@@ -188,11 +198,11 @@ public class Contract {
                 + System.lineSeparator() + "]";
     }
 
-    public long getNumber() {
+    public Long getNumber() {
         return number;
     }
 
-    public void setNumber(long number) {
+    public void setNumber(Long number) {
         this.number = number;
     }
 

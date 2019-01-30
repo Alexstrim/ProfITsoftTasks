@@ -17,13 +17,6 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script>
-        <%
-            if(request.getParameter("Cancel") != null){
-                response.sendRedirect("ShowContractsServlet");
-            }
-        %>
-    </script>
 </head>
 <body>
 <div class="container">
@@ -36,7 +29,7 @@
             <tr>
                 <td>${person}</td>
                 <td>
-                    <form action="AddContractServlet" method="post">
+                    <form action="${pageContext.request.contextPath}/addContract/saveInsuredPersonToContract" method="post">
                         <input type="hidden" name="personId" value="${person.id}">
                         <input type="submit" class="btn btn-success" name ="command" value="Add selected persons to contract">
                     </form>
@@ -44,10 +37,10 @@
             </tr>
         </c:forEach>
     </table>
-    <form action="AddContractServlet" method="post">
+    <form action="${pageContext.request.contextPath}/addContract/finishContract" method="post">
         <input type="submit" style="margin-right: 10px" class="btn btn-primary col-lg-1" name ="command" value="Add contract">
     </form>
-    <form method="post">
+    <form action="${pageContext.request.contextPath}/addContract/exit">
         <input type="submit" class="btn btn-danger col-lg-1" name="Cancel" value="Cancel">
     </form>
 </div>

@@ -22,7 +22,7 @@
 
     <mvc:view-resolvers>
         <mvc:bean-name/>
-        <mvc:jsp prefix="/" suffix=".jsp" view-class="org.springframework.web.servlet.view.JstlView"/>
+        <mvc:jsp prefix="/view/" suffix=".jsp" view-class="org.springframework.web.servlet.view.JstlView"/>
     </mvc:view-resolvers>
 
     <!--<bean id="viewResolver" class="org.springframework.web.servlet.view.InternalResourceViewResolver">

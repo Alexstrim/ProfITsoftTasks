@@ -19,7 +19,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-    <script>
+    <%--<script>
         <%
             if(request.getParameter("Cancel") != null){
                 session.removeAttribute("contr");
@@ -37,7 +37,7 @@
                 }
             }
         %>
-    </script>
+    </script>--%>
 </head>
 <body>
 <div class="container">
@@ -69,22 +69,31 @@
             </div>
         </div>
     </c:if>--%>
-    <form method="post">
+    <form method="post" action="${pageContext.request.contextPath}/addContract/saveContract1">
         <div class="form-group center-block">
             <label class="col-form-label" for="conclusion">Date conclusion:</label>
             <outDate:inputDate name="dateConclusion" id="conclusion"/>
+            <c:forEach var="er" items="${requestScope['org.springframework.validation.BindingResult.contract'].getFieldErrors('dateConclusion')}">
+                <span class="text-danger">${er.defaultMessage}</span>
+            </c:forEach>
         </div>
         <div class="form-group">
             <label for="start">Start date of contract:</label>
             <outDate:inputDate name="startDate" id="start"/>
+            <c:forEach var="er" items="${requestScope['org.springframework.validation.BindingResult.contract'].getFieldErrors('startDate')}">
+                <span class="text-danger">${er.defaultMessage}</span>
+            </c:forEach>
         </div>
         <div class="form-group">
             <label for="end">End date of contract:</label>
             <outDate:inputDate name="endDate" id="end"/>
+            <c:forEach var="er" items="${requestScope['org.springframework.validation.BindingResult.contract'].getFieldErrors('endDate')}">
+                <span class="text-danger">${er.defaultMessage}</span>
+            </c:forEach>
         </div>
         <input style="margin-right: 10px" class = "btn btn-primary col-lg-1" type="submit" name = "next" value="Next">
     </form>
-    <form method="post">
+    <form action="${pageContext.request.contextPath}/addContract/exit">
         <input class="btn btn-danger col-lg-1" type="submit" name="Cancel" value="Cancel">
     </form>
 </div>

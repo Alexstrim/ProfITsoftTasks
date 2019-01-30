@@ -14,12 +14,6 @@
     <title>Add new contract [2 step]</title>
     <%--Doesn't work, couse variable requestScope.dateConclusion = "", don't understand why--%>
    <%-- <jsp:setProperty name="contr" property="dateConclusion" value="${myFuncUtil:transformDate(requestScope.dateConclusion,'yyyy-MM-dd')}"/>--%>
-    <%
-        if(request.getParameter("Cancel") != null){
-            session.removeAttribute("contr");
-            response.sendRedirect("ShowContractsServlet");
-        }
-    %>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -36,15 +30,15 @@
             <tr>
                 <td>${client}</td>
                 <td>
-                    <form action="AddContractServlet" method="post">
-                        <input type="hidden" name="client" value="${client.id}">
+                    <form action="${pageContext.request.contextPath}/addContract/saveContract2" method="post">
+                        <input type="hidden" name="clientId" value="${client.id}">
                         <input class="btn btn-success" type="submit" name ="command" value="Add to contract">
                     </form>
                 </td>
             </tr>
         </c:forEach>
     </table>
-    <form method="post">
+    <form action="${pageContext.request.contextPath}/addContract/exit">
         <input type="submit" class="btn btn-danger" name="Cancel" value="Cancel">
     </form>
 </div>

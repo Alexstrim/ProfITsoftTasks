@@ -21,9 +21,9 @@
         <h1 class="text-center">All contracts here</h1>
     </div>
     <ul class = "list-group">
-        <li class = "list-group-item" ><a href="${pageContext.request.contextPath}/addNewClient.jsp" class="btn btn-success btn-block">Add new Client</a></li>
-        <li class = "list-group-item" ><a href="${pageContext.request.contextPath}/addNewInsuredPerson.jsp" class="btn btn-success btn-block">Add new Insured Person</a></li>
-        <li class = "list-group-item" ><a href="AddContractServlet" class="btn btn-success btn-block">Add new Contract</a></li>
+        <li class = "list-group-item" ><a href="${pageContext.request.contextPath}/view/addNewClient.jsp" class="btn btn-success btn-block">Add new Client</a></li>
+        <li class = "list-group-item" ><a href="${pageContext.request.contextPath}/view/addNewInsuredPerson.jsp" class="btn btn-success btn-block">Add new Insured Person</a></li>
+        <li class = "list-group-item" ><a href="${pageContext.request.contextPath}/addContract" class="btn btn-success btn-block">Add new Contract</a></li>
     </ul>
 <table class="table">
         <tr>
