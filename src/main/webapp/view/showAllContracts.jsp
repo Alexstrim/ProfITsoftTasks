@@ -50,19 +50,19 @@
                 </ul>
             </td>
             <td>
-                <form action="showInfoContract" method="get">
+                <form action="${pageContext.request.contextPath}/showInfoContract" method="get">
                     <input type="hidden" name="contractId" value="${con.number}">
                     <input type="submit" class="btn btn-info" value="View contract information">
                 </form>
             </td>
             <td>
-                <form action="deleteContract" method="post">
+                <form action="${pageContext.request.contextPath}/deleteContract" method="post">
                     <input type="hidden" name="contractId" value="${con.number}">
                     <input type="submit" class="btn btn-danger" value="Delete contract">
                 </form>
             </td>
             <td>
-                <form action="goEditContract" method="get">
+                <form action="${pageContext.request.contextPath}/goEditContract" method="get">
                     <input type="hidden" name="contractId" value="${con.number}">
                     <input type="submit" class="btn btn-success" value="Edit contract">
                 </form>

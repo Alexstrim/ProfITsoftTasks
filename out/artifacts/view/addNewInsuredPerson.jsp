@@ -23,7 +23,7 @@
     <div class="jumbotron">
         <h1 class="text-center">Add new Insured Person</h1>
     </div>
-    <form method="post" action="addInsuredPerson">
+    <form method="post" action="${pageContext.request.contextPath}/addInsuredPerson">
         <div class="form-group">
             <label for="firstName">First name:</label>
             <input type="text" class="form-control" id="firstName" name="firstName">

@@ -65,70 +65,67 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/EditContractControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-2">
-              <caret line="22" column="14" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddInsuredPersonControllerTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+            <state relative-caret-position="391">
+              <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/service/InsuredPersonServiceTest.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddClientController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="21" column="8" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="96" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/db/dao/hibernate/InsuredPersonHibernateDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="12" selection-start-line="12" selection-end-line="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/service/IService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddInsuredPersonController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="357">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowInfoContractControllerTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="34" column="74" selection-start-line="34" selection-start-column="48" selection-end-line="34" selection-end-column="74" />
+            <state relative-caret-position="493">
+              <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/DeleteContractControllerTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="36" selection-start-line="36" selection-end-line="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewInsuredPerson.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-243">
+              <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewClient.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-305">
+              <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="53" selection-end-column="32" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract1Step.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-119">
+              <caret line="20" column="95" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract3Step.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -142,26 +139,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowContractsControllerTest.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/view/showAllContracts.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="38" column="59" selection-start-line="38" selection-start-column="59" selection-end-line="38" selection-end-column="59" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="476">
+              <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowContractsController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddInsuredPersonController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="18" column="37" selection-start-line="18" selection-start-column="24" selection-end-line="18" selection-end-column="37" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="357">
+              <caret line="37" selection-start-line="37" selection-end-line="37" />
             </state>
           </provider>
         </entry>
@@ -210,7 +201,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/AddInsuredPersonServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/validate/ClientValidate.java" />
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/AddClientServlet.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/tags/inputDate.tag" />
@@ -252,7 +242,6 @@
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddContractController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/mvc-context.xml" />
         <option value="$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddClientController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/view/showAllContracts.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/view/addNewContract1Step.jsp" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowContractsControllerTest.java" />
@@ -261,6 +250,8 @@
         <option value="$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/EditContractControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/DeleteContractControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddInsuredPersonControllerTest.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/addNewInsuredPerson.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/view/showAllContracts.jsp" />
       </list>
     </option>
   </component>
@@ -466,7 +457,7 @@
     <property name="SONARLINT_ANALYSIS_RESULTS_SPLIT_PROPORTION" value="0.6411264" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548922591230" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1548923378969" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
     <property name="database.console.LAST_STATE" value="false" />
@@ -526,7 +517,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ua.profitsoft.strymeneshenko.controllers.mvc in strymeneshenko">
+  <component name="RunManager" selected="Tomcat Server.Tomcat 7.0.92">
     <configuration name="Demo" type="Application" factoryName="Application" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ua.profitsoft.strymeneshenko.Demo" />
       <module name="Task1" />
@@ -853,20 +844,11 @@
       <workItem from="1548749338264" duration="20189000" />
       <workItem from="1548835032186" duration="9700000" />
       <workItem from="1548846478768" duration="13101000" />
-      <workItem from="1548920125218" duration="2260000" />
+      <workItem from="1548920125218" duration="3232000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="DeleteContractControllerTest - 2019.01.31 at 09h 47m 45s.xml">
-      <configuration name="DeleteContractControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeleteContractControllerTest - 2019.01.31 at 09h 50m 56s.xml">
-      <configuration name="DeleteContractControllerTest" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="DeleteContractControllerTest - 2019.01.31 at 09h 51m 12s.xml">
-      <configuration name="DeleteContractControllerTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="DeleteContractControllerTest - 2019.01.31 at 09h 51m 28s.xml">
       <configuration name="DeleteContractControllerTest" configurationId="JUnit" />
     </history-entry>
@@ -888,9 +870,18 @@
     <history-entry file="AddInsuredPersonControllerTest - 2019.01.31 at 10h 12m 26s.xml">
       <configuration name="AddInsuredPersonControllerTest" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="AddInsuredPersonControllerTest - 2019.01.31 at 10h 13m 16s.xml">
+      <configuration name="AddInsuredPersonControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddInsuredPersonControllerTest - 2019.01.31 at 10h 13m 48s.xml">
+      <configuration name="AddInsuredPersonControllerTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ua_profitsoft_strymeneshenko_controllers_mvc_in_strymeneshenko - 2019.01.31 at 10h 16m 06s.xml">
+      <configuration name="ua.profitsoft.strymeneshenko.controllers.mvc in strymeneshenko" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="462446000" />
+    <option name="totallyTimeSpent" value="463418000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -907,7 +898,7 @@
     <layout>
       <window_info id="Web" order="0" sideWeight="0.502008" side_tool="true" weight="0.32197943" />
       <window_info id="Persistence" order="1" sideWeight="0.502008" side_tool="true" weight="0.32197943" />
-      <window_info content_ui="combo" id="Project" order="2" sideWeight="0.49799198" visible="true" weight="0.35501066" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" sideWeight="0.49799198" visible="true" weight="0.35501066" />
       <window_info id="Structure" order="3" sideWeight="0.502008" side_tool="true" weight="0.32197943" />
       <window_info id="Image Layers" order="4" />
       <window_info id="Designer" order="5" />
@@ -917,7 +908,7 @@
       <window_info anchor="bottom" id="Application Servers" order="0" weight="0.32792208" />
       <window_info anchor="bottom" id="Message" order="1" />
       <window_info anchor="bottom" id="Find" order="2" weight="0.32792208" />
-      <window_info active="true" anchor="bottom" id="Run" order="3" sideWeight="0.49807197" visible="true" weight="0.32792208" />
+      <window_info anchor="bottom" id="Run" order="3" sideWeight="0.49807197" visible="true" weight="0.32792208" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.39718616" />
       <window_info anchor="bottom" id="Cvs" order="5" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="6" weight="0.4" />
@@ -1115,31 +1106,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewClient.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
-          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="53" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract1Step.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="95" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract2Step.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="33" column="59" selection-start-line="33" selection-start-column="59" selection-end-line="33" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewInsuredPerson.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1071">
-          <caret line="63" column="11" selection-start-line="63" selection-start-column="11" selection-end-line="63" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1150,24 +1120,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/showAllContracts.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="87" selection-start-line="24" selection-start-column="87" selection-end-line="24" selection-end-column="87" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/view/showInfoContract.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="442">
           <caret line="26" column="56" selection-start-line="26" selection-start-column="56" selection-end-line="26" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract3Step.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
         </state>
       </provider>
     </entry>
@@ -1238,16 +1194,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddClientController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/servlets/AddClientServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1279,13 +1225,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowInfoContractController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="18" column="55" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowContractsControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="374">
@@ -1313,13 +1252,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/DeleteContractControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="36" column="70" selection-start-line="36" selection-start-column="70" selection-end-line="36" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/EditContractControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2">
@@ -1344,13 +1276,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddInsuredPersonController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="357">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/service/InsuredPersonServiceTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -1360,8 +1285,74 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddInsuredPersonControllerTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="39" column="29" lean-forward="true" selection-start-line="39" selection-start-column="29" selection-end-line="39" selection-end-column="29" />
+        <state relative-caret-position="391">
+          <caret line="37" column="42" selection-start-line="37" selection-start-column="42" selection-end-line="37" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddClientController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="39" column="49" selection-start-line="39" selection-start-column="49" selection-end-line="39" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/ua/profitsoft/strymeneshenko/controllers/mvc/DeleteContractControllerTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="36" selection-start-line="36" selection-end-line="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/AddInsuredPersonController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewInsuredPerson.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-243">
+          <caret line="25" column="83" selection-start-line="25" selection-start-column="83" selection-end-line="25" selection-end-column="83" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewClient.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="51" column="20" selection-start-line="51" selection-start-column="20" selection-end-line="53" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract1Step.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-119">
+          <caret line="20" column="95" selection-start-line="20" selection-start-column="95" selection-end-line="20" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/addNewContract3Step.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="24" column="10" selection-start-line="24" selection-start-column="10" selection-end-line="24" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/ua/profitsoft/strymeneshenko/controllers/mvc/ShowInfoContractController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="18" column="55" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/view/showAllContracts.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="64" column="65" selection-start-line="64" selection-start-column="65" selection-end-line="64" selection-end-column="65" />
         </state>
       </provider>
     </entry>
