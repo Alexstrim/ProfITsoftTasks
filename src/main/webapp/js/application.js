@@ -1,6 +1,5 @@
 function deleteContract() {
-    console.log(123);
-    // return confirm("Are you sure that you want to delete contract?");
+    return confirm("Are you sure that you want to delete contract?");
 }
 function getList() {
     return fetch("${pageContext.request.contextPath}/loadContracts", {
