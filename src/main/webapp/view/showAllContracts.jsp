@@ -13,7 +13,7 @@
     <title>Show all contracts</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
     <%--<script src="${pageContext.request.contextPath}/js/application.js"></script>--%>
     <script>
@@ -28,12 +28,20 @@
                     'Content-Type': 'application/json'
                 }
             }).then(function (resp) {
-                var jsonObj = resp.json();
+                let jsonObj = resp.json();
                 console.log(jsonObj);
                 return jsonObj;
-            }).then(function (myObjects) {
-                console.log(myObjects[0]);
-                return myObjects;
+            }).then(function (myContracts) {
+                for(i in myContracts){
+                    const $tbody = $('#tableBody__for_add_js');
+                    $tbody.empty();
+                    $tbody.append('<tr><td>${myContracts[i].number}</td></tr>');
+                   /* myContracts[i].number;
+                    myContracts[i].dateConclusion;
+                    myContracts[i].startDate;
+                    myContracts[i].endDate;*/
+                }
+                return myContracts;
             });
         }
         console.log(getList());
@@ -49,7 +57,7 @@
         <li class = "list-group-item" ><a href="${pageContext.request.contextPath}/view/addNewInsuredPerson.jsp" class="btn btn-success btn-block">Add new Insured Person</a></li>
         <li class = "list-group-item" ><a href="${pageContext.request.contextPath}/addContract" class="btn btn-success btn-block">Add new Contract</a></li>
     </ul>
-<table class="table">
+<table class="table" id="table_js">
         <tr>
             <th>№</th>
             <th>Client</th>
@@ -94,6 +102,19 @@
         </tr>
     </c:forEach>
 </table>
+    <table>
+        <tr>
+            <th>№</th>
+            <th>Client</th>
+            <th>Date conclusion</th>
+            <th>Start date</th>
+            <th>End date</th>
+            <th colspan="4">Persons list</th>
+        </tr>
+        <tbody id = "tableBody__for_add_js">
+
+        </tbody>
+    </table>
 </div>
 </body>
 </html>
