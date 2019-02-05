@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+		http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
+
+    <bean id="PropertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations" value="classpath:db.properties"/>
+    </bean>
+
+    <bean id="DataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
+        <property name="driverClassName" value="${driverClassName}"/>
+        <property name="url" value="jdbc:mysql://${db.host}/${db.name}?serverTimezone=${db.serverTimezone}"/>
+        <property name="username" value="${username}"/>
+        <property name="password" value="${password}"/>
+    </bean>
+
+    <tx:annotation-driven transaction-manager="txManager" proxy-target-class="true"/>
+
+    <bean id="sessionFactory" class="org.springframework.orm.hibernate5.LocalSessionFactoryBean" p:dataSource-ref="DataSource">
+        <property name="configLocation" value="classpath:hibernate.cfg.xml"/>
+    </bean>
+
+    <bean id="txManager" class= "org.springframework.orm.hibernate5.HibernateTransactionManager">
+        <property name="sessionFactory" ref="sessionFactory" />
+    </bean>
+</beans>
