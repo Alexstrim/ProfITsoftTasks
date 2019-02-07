@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema targetNamespace="http://www.profItsoft.org/ContractService"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           xmlns:tns="http://www.profItsoft.org/ContractService">
+    <xs:element name="getAllContractsRequest"/>
+
+    <xs:element name="getAllContractsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="contract" type="tns:contract" minOccurs="0" maxOccurs="unbounded"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="contract">
+        <xs:sequence>
+            <xs:element name="number" type="xs:long"/>
+            <xs:element name="dateConclusion" type="xs:date"/>
+            <xs:element name="startDate" type="xs:date"/>
+            <xs:element name="endDate" type="xs:date"/>
+            <xs:element name="client" type="tns:client"/>
+            <xs:element name="persons" type="tns:persons"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="client">
+        <xs:sequence>
+            <xs:element name="id" type="xs:long"/>
+            <xs:element name="adress" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="individual">
+        <xs:complexContent>
+            <xs:extension base="tns:client">
+                <xs:sequence>
+                    <xs:element name="firstName" type="xs:string"/>
+                    <xs:element name="lastName" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="legalEntity">
+        <xs:complexContent>
+            <xs:extension base="tns:client">
+                <xs:sequence>
+                    <xs:element name="nameOrganization" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="persons">
+        <xs:sequence>
+            <xs:element name="person" type="tns:insuredPerson" minOccurs="1" maxOccurs="unbounded"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="insuredPerson">
+        <xs:sequence>
+            <xs:element name="id" type="xs:long"/>
+            <xs:element name="firstName" type="xs:string"/>
+            <xs:element name="lastName" type="xs:string"/>
+            <xs:element name="dateOfBirth" type="xs:date"/>
+            <xs:element name="cost" type="xs:integer"/>
+            <xs:element name="identificationNumber" type="xs:long"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
