@@ -2,7 +2,7 @@
 Test set: ua.profitsoft.strymeneshenko.controllers.mvc.AddInsuredPersonControllerTest
 -------------------------------------------------------------------------------
 Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 4.322 sec <<< FAILURE!
-goEdit(ua.profitsoft.strymeneshenko.controllers.mvc.AddInsuredPersonControllerTest)  Time elapsed: 0.601 sec  <<< ERROR!
+goEdit(ua.profitsoft.strymeneshenko.controllers.mvc.AddInsuredPersonControllerTest)  Time elapsed: 0.584 sec  <<< ERROR!
 org.springframework.web.util.NestedServletException: Request processing failed; nested exception is org.hibernate.exception.ConstraintViolationException: could not execute statement
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
 	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
@@ -90,7 +90,7 @@ Caused by: org.hibernate.exception.ConstraintViolationException: could not execu
 	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:671)
-	at ua.profitsoft.strymeneshenko.service.InsuredPersonService$$EnhancerBySpringCGLIB$$511d719f.create(<generated>)
+	at ua.profitsoft.strymeneshenko.service.InsuredPersonService$$EnhancerBySpringCGLIB$$b1863283.create(<generated>)
 	at ua.profitsoft.strymeneshenko.controllers.mvc.AddInsuredPersonController.goEdit(AddInsuredPersonController.java:38)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

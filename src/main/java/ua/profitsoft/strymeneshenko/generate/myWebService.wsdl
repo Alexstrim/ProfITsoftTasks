@@ -18,7 +18,9 @@
             <xs:element name="startDate" type="xs:date"/>
             <xs:element name="endDate" type="xs:date"/>
             <xs:element name="client" type="tns:client"/>
-            <xs:element name="persons" type="tns:persons"/>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" minOccurs="1" name="person" type="tns:insuredPerson"/>
+            </xs:sequence>
         </xs:sequence>
     </xs:complexType>
 
@@ -48,12 +50,6 @@
                 </xs:sequence>
             </xs:extension>
         </xs:complexContent>
-    </xs:complexType>
-
-    <xs:complexType name="persons">
-        <xs:sequence>
-            <xs:element maxOccurs="unbounded" minOccurs="1" name="person" type="tns:insuredPerson"/>
-        </xs:sequence>
     </xs:complexType>
 
     <xs:complexType name="insuredPerson">

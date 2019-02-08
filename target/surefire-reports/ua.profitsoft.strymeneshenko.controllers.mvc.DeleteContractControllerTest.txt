@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ua.profitsoft.strymeneshenko.controllers.mvc.DeleteContractControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.011 sec <<< FAILURE!
-showContracts(ua.profitsoft.strymeneshenko.controllers.mvc.DeleteContractControllerTest)  Time elapsed: 0.001 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.053 sec <<< FAILURE!
+showContracts(ua.profitsoft.strymeneshenko.controllers.mvc.DeleteContractControllerTest)  Time elapsed: 0.037 sec  <<< ERROR!
 org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.IllegalStateException: Transaction already active
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
 	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
@@ -65,7 +65,7 @@ Caused by: java.lang.IllegalStateException: Transaction already active
 	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:671)
-	at ua.profitsoft.strymeneshenko.service.ContractService$$EnhancerBySpringCGLIB$$c6d05fa6.delete(<generated>)
+	at ua.profitsoft.strymeneshenko.service.ContractService$$EnhancerBySpringCGLIB$$2739208a.delete(<generated>)
 	at ua.profitsoft.strymeneshenko.controllers.mvc.DeleteContractController.showContracts(DeleteContractController.java:19)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)

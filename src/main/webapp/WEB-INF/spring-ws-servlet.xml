@@ -39,9 +39,4 @@
 
     <bean id="simpleXsdSchema" class="org.springframework.xml.xsd.SimpleXsdSchema" p:xsd="classpath:ContractService.xsd"/>
 
-    <!--<bean id="contractEndPoint" class="ua.profitsoft.strymeneshenko.endpoint.ContractEndPoint"/>
-
-    <sws:dynamic-wsdl id="myContractService" portTypeName="ContractService" locationUri="/ContractService" targetNamespace="http://www.profItsoft.org/ContractService">
-        <sws:xsd location="classpath:ContractService.xsd" />
-    </sws:dynamic-wsdl>-->
 </beans>

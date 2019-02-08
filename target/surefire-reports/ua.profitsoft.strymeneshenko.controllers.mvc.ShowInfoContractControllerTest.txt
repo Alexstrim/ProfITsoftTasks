@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ua.profitsoft.strymeneshenko.controllers.mvc.ShowInfoContractControllerTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.025 sec <<< FAILURE!
-showContractInfo(ua.profitsoft.strymeneshenko.controllers.mvc.ShowInfoContractControllerTest)  Time elapsed: 0.009 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.023 sec <<< FAILURE!
+showContractInfo(ua.profitsoft.strymeneshenko.controllers.mvc.ShowInfoContractControllerTest)  Time elapsed: 0.017 sec  <<< FAILURE!
 java.lang.AssertionError: Model attribute 'contract' does not exist
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:35)
 	at org.springframework.test.util.AssertionErrors.assertTrue(AssertionErrors.java:65)

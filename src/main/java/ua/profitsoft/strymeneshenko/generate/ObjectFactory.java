@@ -50,14 +50,6 @@ public class ObjectFactory {
     }
 
     /**
-     * Create an instance of {@link Persons }
-     * 
-     */
-    public Persons createPersons() {
-        return new Persons();
-    }
-
-    /**
      * Create an instance of {@link Individual }
      * 
      */

@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ua.profitsoft.strymeneshenko.controllers.mvc.EditContractControllerTest
 -------------------------------------------------------------------------------
-Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.089 sec <<< FAILURE!
-applyEdit(ua.profitsoft.strymeneshenko.controllers.mvc.EditContractControllerTest)  Time elapsed: 0.014 sec  <<< ERROR!
+Tests run: 3, Failures: 1, Errors: 1, Skipped: 0, Time elapsed: 0.117 sec <<< FAILURE!
+applyEdit(ua.profitsoft.strymeneshenko.controllers.mvc.EditContractControllerTest)  Time elapsed: 0.02 sec  <<< ERROR!
 org.springframework.web.util.NestedServletException: Request processing failed; nested exception is java.lang.IllegalStateException: Transaction already active
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:982)
 	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
@@ -66,7 +66,7 @@ Caused by: java.lang.IllegalStateException: Transaction already active
 	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:96)
 	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
 	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:671)
-	at ua.profitsoft.strymeneshenko.service.ContractService$$EnhancerBySpringCGLIB$$c6d05fa6.update(<generated>)
+	at ua.profitsoft.strymeneshenko.service.ContractService$$EnhancerBySpringCGLIB$$2739208a.update(<generated>)
 	at ua.profitsoft.strymeneshenko.controllers.mvc.EditContractController.applyEdit(EditContractController.java:39)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
@@ -83,7 +83,7 @@ Caused by: java.lang.IllegalStateException: Transaction already active
 	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
 	... 46 more
 
-goEdit(ua.profitsoft.strymeneshenko.controllers.mvc.EditContractControllerTest)  Time elapsed: 0.035 sec  <<< FAILURE!
+goEdit(ua.profitsoft.strymeneshenko.controllers.mvc.EditContractControllerTest)  Time elapsed: 0.038 sec  <<< FAILURE!
 java.lang.AssertionError: Model attribute 'editContract' does not exist
 	at org.springframework.test.util.AssertionErrors.fail(AssertionErrors.java:35)
 	at org.springframework.test.util.AssertionErrors.assertTrue(AssertionErrors.java:65)

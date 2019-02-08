@@ -69,4 +69,5 @@ public class GetAllContractsResponse {
     public void setContract(List<Contract> contract) {
         this.contract = contract;
     }
+
 }

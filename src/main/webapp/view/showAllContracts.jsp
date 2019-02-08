@@ -148,6 +148,10 @@
 
         </tbody>
     </table>
+    <div class="col-lg-12 text-center">
+        <input type="button" value="SHOW CONTRACTS FROM MY WEB SERVICE" class="btn btn-info" onclick='location.href="${pageContext.request.contextPath}/callToWS"'/>
+    </div>
+
 </div>
 </body>
 </html>

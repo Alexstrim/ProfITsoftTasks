@@ -6,7 +6,7 @@ import javax.validation.constraints.Size;
 import java.util.Objects;
 
 //Abstract data client
-public abstract class Client {
+public class Client {
 
     protected Long id = 0l;
     @NotEmpty

@@ -1,6 +1,8 @@
 
 package ua.profitsoft.strymeneshenko.generate;
 
+import java.util.ArrayList;
+import java.util.List;
 import javax.xml.bind.annotation.XmlAccessType;
 import javax.xml.bind.annotation.XmlAccessorType;
 import javax.xml.bind.annotation.XmlElement;
@@ -24,7 +26,9 @@ import javax.xml.datatype.XMLGregorianCalendar;
  *         &lt;element name="startDate" type="{http://www.w3.org/2001/XMLSchema}date"/>
  *         &lt;element name="endDate" type="{http://www.w3.org/2001/XMLSchema}date"/>
  *         &lt;element name="client" type="{http://www.profItsoft.org/ContractService}client"/>
- *         &lt;element name="persons" type="{http://www.profItsoft.org/ContractService}persons"/>
+ *         &lt;sequence>
+ *           &lt;element name="person" type="{http://www.profItsoft.org/ContractService}insuredPerson" maxOccurs="unbounded"/>
+ *         &lt;/sequence>
  *       &lt;/sequence>
  *     &lt;/restriction>
  *   &lt;/complexContent>
@@ -40,7 +44,7 @@ import javax.xml.datatype.XMLGregorianCalendar;
     "startDate",
     "endDate",
     "client",
-    "persons"
+    "person"
 })
 public class Contract {
 
@@ -57,7 +61,7 @@ public class Contract {
     @XmlElement(required = true)
     protected Client client;
     @XmlElement(required = true)
-    protected Persons persons;
+    protected List<InsuredPerson> person;
 
     /**
      * Gets the value of the number property.
@@ -172,27 +176,32 @@ public class Contract {
     }
 
     /**
-     * Gets the value of the persons property.
+     * Gets the value of the person property.
      * 
-     * @return
-     *     possible object is
-     *     {@link Persons }
-     *     
-     */
-    public Persons getPersons() {
-        return persons;
-    }
-
-    /**
-     * Sets the value of the persons property.
+     * <p>
+     * This accessor method returns a reference to the live list,
+     * not a snapshot. Therefore any modification you make to the
+     * returned list will be present inside the JAXB object.
+     * This is why there is not a <CODE>set</CODE> method for the person property.
      * 
-     * @param value
-     *     allowed object is
-     *     {@link Persons }
-     *     
+     * <p>
+     * For example, to add a new item, do as follows:
+     * <pre>
+     *    getPerson().add(newItem);
+     * </pre>
+     * 
+     * 
+     * <p>
+     * Objects of the following type(s) are allowed in the list
+     * {@link InsuredPerson }
+     * 
+     * 
      */
-    public void setPersons(Persons value) {
-        this.persons = value;
+    public List<InsuredPerson> getPerson() {
+        if (person == null) {
+            person = new ArrayList<InsuredPerson>();
+        }
+        return this.person;
     }
 
 }

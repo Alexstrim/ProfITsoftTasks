@@ -1,7 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: ua.profitsoft.strymeneshenko.data.ContractTest
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.138 sec <<< FAILURE!
+Tests run: 4, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.036 sec <<< FAILURE!
 sortPersonsByDateOfBirth(ua.profitsoft.strymeneshenko.data.ContractTest)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: expected: ua.profitsoft.strymeneshenko.data.InsuredPerson<
 InsuredPerson (id=0, firstName=Yaroslav, lastName=Zhykov, dateOfBirth=2000-02-15, cost=800, identificationNumber=123445671235)> but was: ua.profitsoft.strymeneshenko.data.InsuredPerson<
@@ -45,7 +45,7 @@ InsuredPerson (id=0, firstName=Yaroslav, lastName=Zhykov, dateOfBirth=2000-02-15
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-sortPersonsInAlphaBeticalOrder(ua.profitsoft.strymeneshenko.data.ContractTest)  Time elapsed: 0.001 sec  <<< FAILURE!
+sortPersonsInAlphaBeticalOrder(ua.profitsoft.strymeneshenko.data.ContractTest)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: expected: ua.profitsoft.strymeneshenko.data.InsuredPerson<
 InsuredPerson (id=0, firstName=Dima, lastName=Pypkin, dateOfBirth=2001-02-15, cost=700, identificationNumber=123345671235)> but was: ua.profitsoft.strymeneshenko.data.InsuredPerson<
 InsuredPerson (id=0, firstName=Dima, lastName=Pypkin, dateOfBirth=2001-02-15, cost=700, identificationNumber=123345671235)>
@@ -88,7 +88,7 @@ InsuredPerson (id=0, firstName=Dima, lastName=Pypkin, dateOfBirth=2001-02-15, co
 	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
 	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
 
-findPersonByIN(ua.profitsoft.strymeneshenko.data.ContractTest)  Time elapsed: 0.034 sec  <<< FAILURE!
+findPersonByIN(ua.profitsoft.strymeneshenko.data.ContractTest)  Time elapsed: 0 sec  <<< FAILURE!
 java.lang.AssertionError: expected: ua.profitsoft.strymeneshenko.data.InsuredPerson<
 InsuredPerson (id=0, firstName=Yaroslav, lastName=Zhykov, dateOfBirth=2000-02-15, cost=800, identificationNumber=123445671235)> but was: ua.profitsoft.strymeneshenko.data.InsuredPerson<
 InsuredPerson (id=0, firstName=Yaroslav, lastName=Zhykov, dateOfBirth=2000-02-15, cost=800, identificationNumber=123445671235)>
