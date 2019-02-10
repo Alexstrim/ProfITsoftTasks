@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:sch="http://www.profItsoft.org/ContractService" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tns="http://www.profItsoft.org/ContractService" targetNamespace="http://www.profItsoft.org/ContractService">
+  <wsdl:types>
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.profItsoft.org/ContractService">
+    <xs:element name="getAllContractsRequest"/>
+
+    <xs:element name="getAllContractsResponse">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" minOccurs="0" name="contract" type="tns:contract"/>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+
+    <xs:complexType name="contract">
+        <xs:sequence>
+            <xs:element name="number" type="xs:long"/>
+            <xs:element name="dateConclusion" type="xs:date"/>
+            <xs:element name="startDate" type="xs:date"/>
+            <xs:element name="endDate" type="xs:date"/>
+            <xs:element name="client" type="tns:client"/>
+            <xs:sequence>
+                <xs:element maxOccurs="unbounded" minOccurs="1" name="person" type="tns:insuredPerson"/>
+            </xs:sequence>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="client">
+        <xs:sequence>
+            <xs:element name="id" type="xs:long"/>
+            <xs:element name="adress" type="xs:string"/>
+        </xs:sequence>
+    </xs:complexType>
+
+    <xs:complexType name="individual">
+        <xs:complexContent>
+            <xs:extension base="tns:client">
+                <xs:sequence>
+                    <xs:element name="firstName" type="xs:string"/>
+                    <xs:element name="lastName" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="legalEntity">
+        <xs:complexContent>
+            <xs:extension base="tns:client">
+                <xs:sequence>
+                    <xs:element name="nameOrganization" type="xs:string"/>
+                </xs:sequence>
+            </xs:extension>
+        </xs:complexContent>
+    </xs:complexType>
+
+    <xs:complexType name="insuredPerson">
+        <xs:sequence>
+            <xs:element name="id" type="xs:long"/>
+            <xs:element name="firstName" type="xs:string"/>
+            <xs:element name="lastName" type="xs:string"/>
+            <xs:element name="dateOfBirth" type="xs:date"/>
+            <xs:element name="cost" type="xs:integer"/>
+            <xs:element name="identificationNumber" type="xs:long"/>
+        </xs:sequence>
+    </xs:complexType>
+</xs:schema>
+  </wsdl:types>
+  <wsdl:message name="getAllContractsResponse">
+    <wsdl:part element="tns:getAllContractsResponse" name="getAllContractsResponse">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:message name="getAllContractsRequest">
+    <wsdl:part element="tns:getAllContractsRequest" name="getAllContractsRequest">
+    </wsdl:part>
+  </wsdl:message>
+  <wsdl:portType name="evo">
+    <wsdl:operation name="getAllContracts">
+      <wsdl:input message="tns:getAllContractsRequest" name="getAllContractsRequest">
+    </wsdl:input>
+      <wsdl:output message="tns:getAllContractsResponse" name="getAllContractsResponse">
+    </wsdl:output>
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="evoSoap11" type="tns:evo">
+    <soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+    <wsdl:operation name="getAllContracts">
+      <soap:operation soapAction=""/>
+      <wsdl:input name="getAllContractsRequest">
+        <soap:body use="literal"/>
+      </wsdl:input>
+      <wsdl:output name="getAllContractsResponse">
+        <soap:body use="literal"/>
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="EvoService">
+    <wsdl:port binding="tns:evoSoap11" name="evoSoap11">
+      <soap:address location="http://localhost:8080/strymeneshenko_Web_exploded/ws/evo"/>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,9 +1,0 @@
-
-Fsquid:S1148"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8³åÚ«†-
-Qsquid:S1161":Add the "@Override" annotation above this method signature(‹¨¯¿
-Vsquid:S1161 ":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ
-Dsquid:S1989""&Add a "try/catch" block for "getBean".(çó‘¦8Äš‹ª†-
-Dsquid:S1989"&Add a "try/catch" block for "getBean".(çó‘¦8ŞàÖ«†-
-Fsquid:S1148)"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8‘şª†-
-\squid:S2441&">Make "Contract" serializable or don't store it in the session.(›şüÙ8—ç”ª†-
-psquid:S1192"MDefine a constant instead of duplicating this literal "editContract" 3 times.(ÉçÎŸüÿÿÿÿ8åàİ«†-

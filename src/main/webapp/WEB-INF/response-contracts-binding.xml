@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<binding>
+    <mapping name="contract" class="ua.profitsoft.strymeneshenko.data.Contract">
+        <value name="number" field="number"/>
+        <value name="dateConclusion" field="dateConclusion"/>
+        <value name="startDate" field="startDate"/>
+        <value name="endDate" field="endDate"/>
+        <structure name="client" field="client">
+            <value name="id" field="id"/>
+            <value name="adress" field="adress"/>
+        </structure>
+        <collection field="persons" item-type="ua.profitsoft.strymeneshenko.data.InsuredPerson"/>
+    </mapping>
+
+    <mapping name="inuredPerson" class="ua.profitsoft.strymeneshenko.data.InsuredPerson">
+        <value name="id" field="id"/>
+        <value name="firstName" field="firstName"/>
+        <value name="lastName" field="lastName"/>
+        <value name="dateOfBirth" field="dateOfBirth"/>
+        <value name="cost" field="cost"/>
+        <value name="identificationNumber" field="identificationNumber"/>
+   </mapping>
+</binding>

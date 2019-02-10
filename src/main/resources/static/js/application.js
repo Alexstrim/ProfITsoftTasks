@@ -5,12 +5,11 @@ class Client{
         this.toString = () => "Client {" + this.id + "; " + this.adress + "}";
     }
 }
-var client = new Client();
 function deleteContract() {
     return confirm("Are you sure that you want to delete contract?");
 }
-function getList() {
-    return fetch("${pageContext.request.contextPath}/loadContracts", {
+const getList = () => {
+    return fetch("http://localhost:8080/loadContracts", {
         method: "GET",
         headers: {
             'Accept': 'application/json',
@@ -21,7 +20,8 @@ function getList() {
         console.log(jsonObj);
         return jsonObj;
     }).then(function (myContracts) {
-        for(i in myContracts){
+        for(let i = 0; i < myContracts.length; i++){
+            let client = new Client();
             const $tbody = document.getElementById('tableBody__for_add_js');
             let tr = document.createElement('tr');
             let td1 = document.createElement('td');
@@ -30,7 +30,6 @@ function getList() {
             let td4 = document.createElement('td');
             let td5 = document.createElement('td');
             let td6 = document.createElement('td');
-            let td7 = document.createElement('td');
             client.id = myContracts[i].client.id;
             client.adress = myContracts[i].client.adress;
             td1.innerHTML = myContracts[i].number;
@@ -39,7 +38,7 @@ function getList() {
             td4.innerHTML = new Date(myContracts[i].startDate);
             td5.innerHTML = new Date(myContracts[i].endDate);
             var text = '';
-            for(j in myContracts[i].persons){
+            for(let j = 0; j < myContracts[i].persons.length; j++){
                 text += myContracts[i].persons[j].lastName + "<br>";
             }
             td6.innerHTML = text;
@@ -55,4 +54,9 @@ function getList() {
         return myContracts;
     });
 }
-console.log(getList());
+const refresh = () => {
+    const $tbody = $('#tableBody__for_add_js');
+    $tbody.empty();
+    getList();
+}
+window.onload = getList();

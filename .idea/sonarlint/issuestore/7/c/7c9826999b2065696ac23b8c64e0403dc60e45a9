@@ -1,21 +1,0 @@
-
-]squid:S1854":Remove this useless assignment to local variable "client".(ØëïŠûÿÿÿÿ8·£¹À„-
-nsquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(›½§œüÿÿÿÿ8•Åç•ƒ-
-Osquid:S1481",Remove this unused "client1" local variable.(æçÏ•ÿÿÿÿÿ8É¬Ğ¹„-
-Fsquid:S1481"(Remove this unused "ip2" local variable.(İ¾²¢8·£¹À„-
-isquid:CommentedOutCodeLine"<This block of commented-out lines of code should be removed.(®…“8úòè•ƒ-
-Fsquid:S1481"(Remove this unused "ip1" local variable.(óÇšÛ8·£¹À„-
-Nsquid:S1481"+Remove this unused "client" local variable.(ØëïŠûÿÿÿÿ8·£¹À„-
-V
-squid:S106$"9Replace this use of System.out or System.err by a logger.(ı”¬÷8·£¹À„-
-Usquid:S1854"7Remove this useless assignment to local variable "ip1".(óÇšÛ8·£¹À„-
-^squid:S1854";Remove this useless assignment to local variable "client1".(æçÏ•ÿÿÿÿÿ8É¬Ğ¹„-
-bsquid:UselessImportCheck"2Remove this unused import 'org.hibernate.Session'.(È¹›§ùÿÿÿÿ8¶şİ•ƒ-
-squid:UselessImportCheck"dRemove this unused import 'ua.profitsoft.strymeneshenko.db.dao.hibernate.InsuredPersonHibernateDAO'.(«ÿÆ8¡¶Ùƒ-
-Šsquid:UselessImportCheck
-"_Remove this unused import 'ua.profitsoft.strymeneshenko.db.dao.hibernate.ContractHibernateDAO'.(¿¨âß8É¬Ğ¹„-
-‡squid:UselessImportCheck	"]Remove this unused import 'ua.profitsoft.strymeneshenko.db.dao.hibernate.ClientHibernateDAO'.(«°‰`8É¬Ğ¹„-
-Fsquid:S1148'"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8®„Ñƒ-
-€squid:UselessImportCheck"VRemove this unused import 'ua.profitsoft.strymeneshenko.util.hibernate.HibernateUtil'.(¤¨«=8¶şİ•ƒ-
-asquid:UselessImportCheck"6Remove this unused import 'org.hibernate.Transaction'.(ìÌè³8¶şİ•ƒ-
-Usquid:S1854"7Remove this useless assignment to local variable "ip2".(İ¾²¢8·£¹À„-

@@ -1,7 +1,0 @@
-
-csquid:CallToDeprecatedMethod"/Remove this use of "setLong"; it is deprecated.(ë€ÑÕøÿÿÿÿ8²Åˆ—ƒ-
-usquid:UselessImportCheck"ERemove this unused import 'org.springframework.jdbc.object.SqlQuery'.(´þû˜ûÿÿÿÿ8Ÿöý¡†-
-hsquid:CommentedOutCodeLine>"<This block of commented-out lines of code should be removed.(ƒöën8ƒÇá¡†-
-]squid:CallToDeprecatedMethod5"/Remove this use of "setLong"; it is deprecated.(½¶É18–Ìäœƒ-
-_squid:CallToDeprecatedMethod?"0Remove this use of "SQLQuery"; it is deprecated.(¯‹Õ8Ÿöý¡†-
-asquid:CallToDeprecatedMethod"-Remove this use of "Query"; it is deprecated.(Õæ³šÿÿÿÿÿ8‰¡¯–ƒ-

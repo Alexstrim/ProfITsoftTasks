@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: ua.profitsoft.strymeneshenko.db.dao.ConractsFileDAOTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE!
-read(ua.profitsoft.strymeneshenko.db.dao.ConractsFileDAOTest)  Time elapsed: 0.013 sec  <<< FAILURE!
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.016 sec <<< FAILURE!
+read(ua.profitsoft.strymeneshenko.db.dao.ConractsFileDAOTest)  Time elapsed: 0.016 sec  <<< FAILURE!
 java.lang.AssertionError: expected: ua.profitsoft.strymeneshenko.data.Contract<Contract [number=123332
 dateConclusion=2018-11-19
 startDate=2018-11-19
@@ -33,16 +33,18 @@ InsuredPerson (id=0, firstName=Denys, lastName=Tomson, dateOfBirth=1985-04-02, c
 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:56)
 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:305)
 	at org.junit.runners.BlockJUnit4ClassRunner$1.evaluate(BlockJUnit4ClassRunner.java:100)
-	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:349)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:365)
 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:103)
 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:63)
-	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:314)
-	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
-	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:312)
-	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:330)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:78)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:328)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:65)
 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:292)
-	at org.junit.runners.ParentRunner.run(ParentRunner.java:396)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:305)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:412)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
 	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)

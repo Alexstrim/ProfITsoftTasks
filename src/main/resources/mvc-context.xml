@@ -21,7 +21,7 @@
         <mvc:jsp prefix="/view/" suffix=".jsp" view-class="org.springframework.web.servlet.view.JstlView"/>
     </mvc:view-resolvers>
 
-    <mvc:resources mapping="/static/**" location="/static/" />
+    <mvc:resources mapping="/static/**" location="classpath:/static/" />
 
     <bean id="objectMapper" class="org.springframework.http.converter.json.Jackson2ObjectMapperFactoryBean">
         <property name="featuresToEnable">

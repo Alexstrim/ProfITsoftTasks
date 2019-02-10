@@ -1,22 +1,0 @@
-
-Xsquid:UselessImportCheck".Remove this unused import 'java.util.HashSet'.(Ê‚êX8¼ì¦†-
-psquid:S2441L"MMake "List" and its parameters serializable or don't store it in the session.(¢—‘çşÿÿÿÿ8Ì½¥¡†-
-Dsquid:S1989"&Add a "try/catch" block for "getBean".(®ªï8²³¾¢†-
-\squid:S24410">Make "Contract" serializable or don't store it in the session.(×¢ùò8ß«Ğ¦†-
-fsquid:S1192"HDefine a constant instead of duplicating this literal "command" 3 times.(§©õ·8Á‘Û¦†-
-Isquid:S1989"&Add a "try/catch" block for "getBean".(¬ıûıÿÿÿÿ8²³¾¢†-
-Fsquid:S1148O"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Ø›¡†-
-Vsquid:S1161B":Add the "@Override" annotation above this method signature(Ïû©Öûÿÿÿÿ
-Fsquid:S1148'"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Å®Á¢†-
-Fsquid:S11483"#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8Õ£·¦†-
-ksquid:S2441K"MMake "List" and its parameters serializable or don't store it in the session.(¸µŞ8÷¢¥¡†-
-Fsquid:S1148="#Use a logger to log this exception.(€ÉÔ…ıÿÿÿÿ8ã‘â¦†-
-Zsquid:UselessImportCheck"*Remove this unused import 'java.util.Set'.(ö²„¤şÿÿÿÿ8¼ì¦†-
-Qsquid:S1161":Add the "@Override" annotation above this method signature(‹¨¯¿
-isquid:S1192""FDefine a constant instead of duplicating this literal "contr" 6 times.(ğÏÁ£ûÿÿÿÿ8™şº¦†-
-[
-squid:S106I"9Replace this use of System.out or System.err by a logger.(·µÓŸÿÿÿÿÿ8‘Øë¡†-
-\squid:S2441$">Make "Contract" serializable or don't store it in the session.(×¢ùò8ŒØ¢†-
-Isquid:S1989E"&Add a "try/catch" block for "getBean".(¬ıûıÿÿÿÿ8®Ø †-
-Dsquid:S1989"&Add a "try/catch" block for "getBean".(çó‘¦8´Óá¦†-
-Dsquid:S1989D"&Add a "try/catch" block for "getBean".(®ªï8îÉÓ †-
